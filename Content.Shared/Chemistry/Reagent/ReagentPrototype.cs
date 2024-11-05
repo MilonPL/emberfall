@@ -5,6 +5,7 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.Body.Prototypes;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reaction;
+using Content.Shared.Contraband;
 using Content.Shared.EntityEffects;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
@@ -142,6 +143,9 @@ namespace Content.Shared.Chemistry.Reagent
 
         [DataField]
         public SoundSpecifier FootstepSound = new SoundCollectionSpecifier("FootstepWater", AudioParams.Default.WithVolume(6));
+
+        [DataField]
+        public ProtoId<ContrabandSeverityPrototype> Contraband = "None";
 
         public FixedPoint2 ReactionTile(TileRef tile, FixedPoint2 reactVolume, IEntityManager entityManager, List<ReagentData>? data)
         {
