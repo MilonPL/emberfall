@@ -88,8 +88,14 @@ namespace Content.Server.Forensics
                 return;
             }
 
-            if (_solutionContainerSystem.TryGetDrainableSolution(args.Target.Value, out _, out var solution))
+            if (_solutionContainerSystem.TryGetDrainableSolution(args.Target.Value, out _, out var solution) ||
+                _solutionContainerSystem.TryGetDrawableSolution(args.Target.Value, out _, out solution))
             {
+                if (solution.Contents.Count == 0)
+                {
+                    return;
+                }
+
                 var sample = solution.Contents.Select(x =>
                 {
                     if (_prototypeManager.TryIndex(x.Reagent.Prototype, out ReagentPrototype? proto))
