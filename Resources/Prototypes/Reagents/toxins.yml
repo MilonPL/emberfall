@@ -579,6 +579,7 @@
   desc: reagent-desc-lead
   physicalDesc: reagent-physical-desc-metallic
   color: "#5C6274"
+  contraband: Syndicate
   metabolisms:
     Poison:
       metabolismRate: 0.03 # Effectively once every 30 seconds.
