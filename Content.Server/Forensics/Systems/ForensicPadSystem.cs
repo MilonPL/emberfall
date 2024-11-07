@@ -24,7 +24,6 @@ namespace Content.Server.Forensics
         [Dependency] private readonly InventorySystem _inventory = default!;
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-        [Dependency] private readonly MetaDataSystem _metaData = default!;
         [Dependency] private readonly LabelSystem _label = default!;
 
         public override void Initialize()
@@ -101,7 +100,7 @@ namespace Content.Server.Forensics
                     if (_prototypeManager.TryIndex(x.Reagent.Prototype, out ReagentPrototype? proto))
                     {
                         var localizedName = Loc.GetString(proto.LocalizedName);
-                        var color = proto.Contraband.Id switch
+                        var color = proto.Contraband?.Id switch
                         {
                             "Restricted" => "cyan",
                             "Minor" => "yellow",
@@ -112,10 +111,6 @@ namespace Content.Server.Forensics
                         if (color != null)
                         {
                             localizedName = $"[color={color}]{localizedName}[/color]";
-                            if (proto.Contraband == "Syndicate")
-                            {
-                                localizedName = $"[bold]{localizedName}[/bold]";
-                            }
                         }
                         return localizedName;
                     }

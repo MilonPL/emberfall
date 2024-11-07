@@ -193,9 +193,8 @@ public sealed partial class GuideReagentEmbed : BoxContainer, IDocumentTag, ISea
         GenerateSources(reagent);
 
         FormattedMessage description = new();
-        if (reagent.Contraband != "None")
+        if (_prototype.TryIndex(reagent.Contraband, out var severity))
         {
-            var severity = _prototype.Index(reagent.Contraband);
             description.AddMarkupOrThrow(Loc.GetString(severity.ExamineText));
             description.PushNewline();
         }

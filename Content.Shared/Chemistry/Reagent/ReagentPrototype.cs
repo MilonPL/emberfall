@@ -144,8 +144,11 @@ namespace Content.Shared.Chemistry.Reagent
         [DataField]
         public SoundSpecifier FootstepSound = new SoundCollectionSpecifier("FootstepWater", AudioParams.Default.WithVolume(6));
 
+        /// <summary>
+        /// Is this reagent considered contraband? And how severe is it?
+        /// </summary>
         [DataField]
-        public ProtoId<ContrabandSeverityPrototype> Contraband = "None";
+        public ProtoId<ContrabandSeverityPrototype>? Contraband = null;
 
         public FixedPoint2 ReactionTile(TileRef tile, FixedPoint2 reactVolume, IEntityManager entityManager, List<ReagentData>? data)
         {
