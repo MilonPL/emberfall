@@ -98,20 +98,12 @@ namespace Content.Server.Forensics
 
                 var sample = solution.Contents.Select(x =>
                 {
-                    if (_prototypeManager.TryIndex(x.Reagent.Prototype, out ReagentPrototype? proto))
+                    if (_prototypeManager.TryIndex(x.Reagent.Prototype, out ReagentPrototype? reagent))
                     {
-                        var localizedName = Loc.GetString(proto.LocalizedName);
-                        var color = proto.Contraband?.Id switch
+                        var localizedName = Loc.GetString(reagent.LocalizedName);
+                        if (_prototypeManager.TryIndex(reagent.Contraband, out var contraband))
                         {
-                            "Restricted" => "cyan",
-                            "Minor" => "yellow",
-                            "Major" => "red",
-                            "Syndicate" => "crimson",
-                            _ => null
-                        };
-                        if (color != null)
-                        {
-                            localizedName = $"[color={color}]{localizedName}[/color]";
+                            localizedName = $"[color={contraband.ExamineColor}]{localizedName}[/color]";
                         }
                         return localizedName;
                     }

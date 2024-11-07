@@ -195,7 +195,7 @@ public sealed partial class GuideReagentEmbed : BoxContainer, IDocumentTag, ISea
         FormattedMessage description = new();
         if (_prototype.TryIndex(reagent.Contraband, out var severity))
         {
-            description.AddMarkupOrThrow(Loc.GetString(severity.ExamineText));
+            description.AddMarkupOrThrow(Loc.GetString(severity.ExamineText, ("color", severity.ExamineColor)));
             description.PushNewline();
         }
         description.AddText(reagent.LocalizedDescription);
