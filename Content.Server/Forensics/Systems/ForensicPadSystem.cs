@@ -88,7 +88,8 @@ namespace Content.Server.Forensics
             }
 
             if (_solutionContainerSystem.TryGetDrainableSolution(args.Target.Value, out _, out var solution) ||
-                _solutionContainerSystem.TryGetDrawableSolution(args.Target.Value, out _, out solution))
+                _solutionContainerSystem.TryGetDrawableSolution(args.Target.Value, out _, out solution) ||
+                _solutionContainerSystem.TryGetInjectorSolution(args.Target.Value, out _, out solution))
             {
                 if (solution.Contents.Count == 0)
                 {
