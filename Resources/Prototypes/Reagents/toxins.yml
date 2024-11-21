@@ -319,6 +319,7 @@
   desc: reagent-desc-lexorin
   physicalDesc: reagent-physical-desc-pungent
   color: "#6b0007"
+  contraband: Syndicate
   metabolisms:
     Poison:
       effects:
@@ -454,6 +455,7 @@
   flavor: bitter
   color: "#7e916e"
   worksOnTheDead: true
+  contraband: Syndicate
   metabolisms:
     Medicine:
       effects:
@@ -577,6 +579,7 @@
   desc: reagent-desc-lead
   physicalDesc: reagent-physical-desc-metallic
   color: "#5C6274"
+  contraband: Syndicate
   metabolisms:
     Poison:
       metabolismRate: 0.03 # Effectively once every 30 seconds.
@@ -610,6 +613,7 @@
   physicalDesc: reagent-physical-desc-shiny
   flavor: medicine
   color: "#435166"
+  contraband: Syndicate
   metabolisms:
     Poison:
       effects:
@@ -633,6 +637,7 @@
   physicalDesc: reagent-physical-desc-metallic
   flavor: shocking
   color: "#FDD023"
+  contraband: Syndicate
   metabolisms:
     Poison:
       effects:

@@ -118,6 +118,7 @@
   color: "#9A040E"
   boilingPoint: 212.0
   meltingPoint: 170.0
+  contraband: Syndicate
   metabolisms:
     Narcotic:
       metabolismRate: 1.0
@@ -293,6 +294,7 @@
   color: "#128e80"
   boilingPoint: 444.0
   meltingPoint: 128.0
+  contraband: Syndicate
   metabolisms:
     Narcotic:
       effects:
@@ -315,6 +317,7 @@
   color: "#000000"
   boilingPoint: 255.0
   meltingPoint: 36.0
+  contraband: Syndicate
   metabolisms:
     Narcotic:
       effects:
