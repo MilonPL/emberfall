@@ -20,6 +20,8 @@ namespace Content.Server.Atmos.Piping.Unary.Components
 
         [DataField]
         public HashSet<Gas> FilterGases = new(GasVentScrubberData.DefaultFilterGases);
+        [DataField]
+        public HashSet<Gas> OverflowGases = new(GasVentScrubberData.DefaultOverflowGases);
 
         [DataField]
         public ScrubberPumpDirection PumpDirection { get; set; } = ScrubberPumpDirection.Scrubbing;
@@ -35,6 +37,17 @@ namespace Content.Server.Atmos.Piping.Unary.Components
         }
 
         private float _transferRate = Atmospherics.MaxTransferRate;
+
+        /// <summary>
+        ///     Target pressure. If the pressure is below this value only priority gases are getting scrubbed.
+        /// </summary>
+        [DataField]
+        public float TargetPressure
+        {
+            get => _targetPressure;
+            set => _targetPressure = Math.Max(value, 0f);
+        }
+        private float _targetPressure = Atmospherics.OneAtmosphere;
 
         [DataField]
         public float MaxTransferRate = Atmospherics.MaxTransferRate;
@@ -56,8 +69,10 @@ namespace Content.Server.Atmos.Piping.Unary.Components
                 Enabled = Enabled,
                 Dirty = IsDirty,
                 FilterGases = FilterGases,
+                OverflowGases = OverflowGases,
                 PumpDirection = PumpDirection,
                 VolumeRate = TransferRate,
+                TargetPressure = TargetPressure,
                 WideNet = WideNet
             };
         }
@@ -68,6 +83,7 @@ namespace Content.Server.Atmos.Piping.Unary.Components
             IsDirty = data.Dirty;
             PumpDirection = data.PumpDirection;
             TransferRate = data.VolumeRate;
+            TargetPressure = data.TargetPressure;
             WideNet = data.WideNet;
 
             if (!data.FilterGases.SequenceEqual(FilterGases))
@@ -75,6 +91,12 @@ namespace Content.Server.Atmos.Piping.Unary.Components
                 FilterGases.Clear();
                 foreach (var gas in data.FilterGases)
                     FilterGases.Add(gas);
+            }
+            if (!data.OverflowGases.SequenceEqual(OverflowGases))
+            {
+                OverflowGases.Clear();
+                foreach (var gas in data.OverflowGases)
+                    OverflowGases.Add(gas);
             }
         }
     }
