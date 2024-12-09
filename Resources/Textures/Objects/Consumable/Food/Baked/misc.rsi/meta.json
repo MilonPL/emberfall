@@ -164,10 +164,13 @@
             "name": "croissant"
         },
         {
-           "name": "muffin-chocolate"
+            "name": "muffin-chocolate"
         },
         {
-           "name": "muffin-banana"
+            "name": "muffin-banana"
+        },
+        {
+            "name": "grilled-cheese"
         }
     ]
 }
