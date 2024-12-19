@@ -10,6 +10,12 @@ namespace Content.Shared.Cargo;
 [DataDefinition, NetSerializable, Serializable]
 public readonly partial record struct CargoBountyHistoryData
 {
+    public enum BountyResult
+    {
+        Completed = 0,
+        Skipped = 1,
+    }
+
     /// <summary>
     /// A unique id used to identify the bounty
     /// </summary>
@@ -17,8 +23,13 @@ public readonly partial record struct CargoBountyHistoryData
     public string Id { get; init; } = string.Empty;
 
     /// <summary>
-    /// Optional name of the actor that skipped the bounty.
-    /// Only set when the bounty has been skipped.
+    /// Whether this bounty was completed or skipped.
+    /// </summary>
+    [DataField]
+    public BountyResult Result { get; init; } = BountyResult.Completed;
+
+    /// <summary>
+    /// Optional name of the actor that completed/skipped the bounty.
     /// </summary>
     [DataField]
     public string? ActorName { get; init; } = default;
@@ -35,9 +46,10 @@ public readonly partial record struct CargoBountyHistoryData
     [DataField(required: true)]
     public ProtoId<CargoBountyPrototype> Bounty { get; init; } = string.Empty;
 
-    public CargoBountyHistoryData(CargoBountyData bounty, TimeSpan timestamp, string? actorName)
+    public CargoBountyHistoryData(CargoBountyData bounty, BountyResult result, TimeSpan timestamp, string? actorName)
     {
         Bounty = bounty.Bounty;
+        Result = result;
         Id = bounty.Id;
         ActorName = actorName;
         Timestamp = timestamp;
