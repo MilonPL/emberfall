@@ -1,0 +1,9 @@
+# Emberfall specific migrations
+
+# 2024-12-24 # working on christmas eve ungrateful fucks
+PosterLegitNanotrasenLogo: PosterLegitSCLogo
+PosterLegitVacation: PosterLegitSCVacation
+PosterLegitNTTGC: null
+PosterLegitEnlist: null
+NTFlag: SCFlag
+NTHandyFlag: SCHandyFlag
