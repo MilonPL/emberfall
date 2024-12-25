@@ -40,3 +40,20 @@
 - type: entityDataOverride
   id: PosterLegitThereIsNoGasGiant
   description: Solus Concord has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
+
+- type: entityDataOverride
+  id: ClothingUniformJumpsuitNanotrasen
+  name: solus concord jumpsuit
+  description: A stately blue jumpsuit to represent Solus Concord.
+
+- type: entityDataOverride
+  id: ClothingUniformJumpsuitSecGrey
+  description: A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
+
+- type: entityDataOverride
+  id: ClothingUniformSecurityTrooper
+  description: A formal uniform issued to the Solus Concord Troopers, usually it comes with a car.
+
+- type: entityDataOverride
+  id: ClothingUniformJumpsuitWarden
+  description: A formal security suit for officers complete with SC belt buckle.
