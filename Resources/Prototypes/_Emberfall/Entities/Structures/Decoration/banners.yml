@@ -1,0 +1,9 @@
+- type: entity
+  parent: BannerBase
+  id: BannerSC
+  name: Solus Concord banner
+  description: A banner proudly displaying the Solus Concord logo.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Structures/Decoration/banner.rsi
+    state: banner_sc
