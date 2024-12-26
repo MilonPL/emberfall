@@ -1,8 +1,8 @@
 - type: job
   id: HeadOfPersonnel
-  name: job-name-hop
-  description: job-description-hop
-  playTimeTracker: JobHeadOfPersonnel
+  name: job-name-executiveofficer # Begin Emberfall: HoP -> XO
+  description: job-description-executiveofficer 
+  playTimeTracker: JobExecutiveOfficer # End Emberfall: HoP -> XO
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -19,7 +19,7 @@
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
-  supervisors: job-supervisors-captain
+  supervisors: job-supervisors-commandingofficer
   canBeAntag: false
   access:
   - Command
