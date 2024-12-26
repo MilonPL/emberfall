@@ -1,7 +1,7 @@
 - type: job
   id: HeadOfPersonnel
-  name: job-name-executiveofficer # Begin Emberfall: HoP -> XO
-  description: job-description-executiveofficer 
+  name: job-name-executive-officer # Begin Emberfall: HoP -> XO
+  description: job-description-executive-officer 
   playTimeTracker: JobExecutiveOfficer # End Emberfall: HoP -> XO
   requirements:
     - !type:DepartmentTimeRequirement

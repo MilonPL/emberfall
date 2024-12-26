@@ -1,6 +1,6 @@
 - type: job
   id: Captain
-  name: job-name-commandingofficer # Emberfall: Captain -> CO
+  name: job-name-commanding-officer # Emberfall: Captain -> CO
   description: job-description-captain
   playTimeTracker: JobCommandingOfficer # Emberfall: Captain -> CO
   requirements:
