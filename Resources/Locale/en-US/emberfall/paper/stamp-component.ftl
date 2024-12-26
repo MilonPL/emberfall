@@ -1,0 +1,1 @@
+# Stamp Names for Emberfall Jobs
