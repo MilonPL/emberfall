@@ -1,0 +1,15 @@
+- type: terrainTemplate
+  id: GreatPlains
+  name: terrain-name-great-plains
+  biome: LowDesert
+  atmosphere:
+    volume: 2500
+    temperature: 303.15 # 30C - its a desert
+    moles: # 101.325kPa
+    - 21.32 # 21% oxygen
+    - 80.19
+  addComponents:
+  - type: FTLDestination
+    whitelist:
+      components:
+      - SpaceElevatorPlatform

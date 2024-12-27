@@ -83,8 +83,8 @@ public sealed class ArrivalsSystem : EntitySystem
 
     private readonly List<ProtoId<BiomeTemplatePrototype>> _arrivalsBiomeOptions = new()
     {
-        "Grasslands",
-        "LowDesert",
+        // "Grasslands", // Emberfall
+        // "LowDesert", // Emberfall
         "Snow",
     };
 
@@ -534,7 +534,7 @@ public sealed class ArrivalsSystem : EntitySystem
             _biomes.EnsurePlanet(mapUid, _protoManager.Index(template));
             var restricted = new RestrictedRangeComponent
             {
-                Range = 32f
+                Range = 64f // Emberfall, was 32
             };
             AddComp(mapUid, restricted);
         }
