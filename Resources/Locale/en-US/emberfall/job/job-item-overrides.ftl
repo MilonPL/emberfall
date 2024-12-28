@@ -73,4 +73,4 @@ ent-RubberStampDetective = inspector's rubber stamp
 # Pharmacist
 ent-ClothingUniformJumpsuitChemistry = pharmacist's jumpsuit
 ent-ClothingUniformJumpskirtChemistry = pharmacist's jumpskirt
-# TODO: Figure out what items can vaguely be "chem" and what is actually the pharmacist. What the fuck am I doing, help.
+# TODO: Figure out what items can vaguely be "chemistry" and what is actually the pharmacy. What the fuck am I doing, help.
