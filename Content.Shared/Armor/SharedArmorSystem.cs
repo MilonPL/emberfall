@@ -40,7 +40,7 @@ public abstract class SharedArmorSystem : EntitySystem
         if (!args.CanInteract || !args.CanAccess)
             return;
 
-        var examineMarkup = GetArmorExamine(component.Modifiers);
+        var examineMarkup = GetArmorExamine(component); // Emberfall - Changed argument type to ArmorComponent
 
         var ev = new ArmorExamineEvent(examineMarkup);
         RaiseLocalEvent(uid, ref ev);
@@ -50,12 +50,13 @@ public abstract class SharedArmorSystem : EntitySystem
             Loc.GetString("armor-examinable-verb-message"));
     }
 
-    private FormattedMessage GetArmorExamine(DamageModifierSet armorModifiers)
+    // Emberfall - Changed to take ArmorComponent instead of DamageModifierSet
+    private FormattedMessage GetArmorExamine(ArmorComponent component)
     {
         var msg = new FormattedMessage();
         msg.AddMarkupOrThrow(Loc.GetString("armor-examine"));
 
-        foreach (var coefficientArmor in armorModifiers.Coefficients)
+        foreach (var coefficientArmor in component.Modifiers.Coefficients) // Emberfall
         {
             msg.PushNewline();
 
@@ -66,7 +67,7 @@ public abstract class SharedArmorSystem : EntitySystem
             ));
         }
 
-        foreach (var flatArmor in armorModifiers.FlatReduction)
+        foreach (var flatArmor in component.Modifiers.FlatReduction) // Emberfall
         {
             msg.PushNewline();
 
@@ -76,6 +77,26 @@ public abstract class SharedArmorSystem : EntitySystem
                 ("value", flatArmor.Value)
             ));
         }
+
+        // Emberfall - Add stamina resistance information if it differs from default
+        if (!MathHelper.CloseTo(component.StaminaDamageCoefficient, 1.0f))
+        {
+            msg.PushNewline();
+            var reduction = (1 - component.StaminaDamageCoefficient) * 100;
+            msg.AddMarkupOrThrow(Loc.GetString("armor-stamina-projectile-coefficient-value",
+                ("value", MathF.Round(reduction, 1))
+            ));
+        }
+
+        if (!MathHelper.CloseTo(component.StaminaMeleeDamageCoefficient, 1.0f))
+        {
+            msg.PushNewline();
+            var reduction = (1 - component.StaminaMeleeDamageCoefficient) * 100;
+            msg.AddMarkupOrThrow(Loc.GetString("armor-stamina-melee-coefficient-value",
+                ("value", MathF.Round(reduction, 1))
+            ));
+        }
+        // End Emberfall
 
         return msg;
     }
