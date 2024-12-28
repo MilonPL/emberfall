@@ -1,8 +1,8 @@
 - type: job
   id: Chemist
-  name: job-name-pharmacist # Emberfall: Chemist -> Pharmacist
-  description: job-description-chemist
-  playTimeTracker: JobPharmacist # Emberfall: Chemist -> Pharmacist
+  name: job-name-pharmacist # Start Emberfall: Chemist -> Pharmacist
+  description: job-description-pharmacist
+  playTimeTracker: JobPharmacist # End Emberfall: Chemist -> Pharmacist
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
