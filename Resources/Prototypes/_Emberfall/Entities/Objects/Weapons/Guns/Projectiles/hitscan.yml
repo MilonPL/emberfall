@@ -1,6 +1,6 @@
 - type: hitscan
   id: Disabler
-  staminaDamage: 26
+  staminaDamage: 40
   damage:
     types:
       Heat: 5
