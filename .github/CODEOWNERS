@@ -1,45 +1,31 @@
 # Last match in file takes precedence.
 
-# Sorting by path instead of by who added it one day :(
-# this isn't how codeowners rules work pls read the first comment instead of trying to force a sorting order
+# C# code
+/Content.*/ @emberfall-14/maintainers
 
-/Resources/ConfigPresets/WizardsDen/  @nikthechampiongr
-/Content.*/Administration/ @DrSmugleaf @nikthechampiongr
-/Resources/ServerInfo/ @nikthechampiongr
-/Resources/ServerInfo/Guidebook/ServerRules/ @nikthechampiongr
+# Any assets
+/Resources/ @emberfall-14/maintainers
 
-/Resources/Prototypes/Maps/** @Emisse
+# Server config files
+/Resources/ConfigPresets/ @MilonPL
 
-/Resources/Prototypes/Body/ @DrSmugleaf # suffering
-/Resources/Prototypes/Entities/Mobs/Player/ @DrSmugleaf
-/Resources/Prototypes/Entities/Mobs/Species/ @DrSmugleaf
-/Resources/Prototypes/Guidebook/rules.yml @nikthechampiongr
-/Content.*/Body/ @DrSmugleaf
-/Content.YAMLLinter @DrSmugleaf
-/Content.Shared/Damage/ @DrSmugleaf
+# YML files
+/Resources/*.yml @emberfall-14/yaml-maintainers
+/Resources/**/*.yml @emberfall-14/yaml-maintainers
 
-/Content.*/Anomaly/ @TheShuEd
-/Resources/Prototypes/Entities/Structures/Specific/anomalies.yml @TheShuEd
+# Maps
+/Resources/Maps/ @emberfall-14/maptainers
+/Resources/Prototypes/Maps/ @emberfall-14/maptainers
+/Content.IntegrationTests/Tests/PostMapInitTest.cs @emberfall-14/maptainers
 
-/Content.*/Forensics/ @ficcialfaint
+# Server rules
+/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @MilonPL
 
-# SKREEEE
-/Content.*.Database/ @PJB3005 @DrSmugleaf
-/Content.Shared.Database/Log*.cs @PJB3005 @DrSmugleaf @nikthechampiongr
-/Pow3r/ @PJB3005
-/Content.Server/Power/Pow3r/ @PJB3005
+# Tools and scripts
+/Tools/ @MilonPL
 
-# notafet
-/Content.*/Atmos/ @Partmedia
-/Content.*/Botany/ @Partmedia
+# Workflows, codeowners, templates, etc.
+/.github/ @MilonPL
 
-# Jezi
-/Content.*/Medical @Jezithyr
-/Content.*/Body @Jezithyr
-
-# Sloth
-/Content.*/Audio @metalgearsloth
-/Content.*/Movement @metalgearsloth
-/Content.*/NPC @metalgearsloth
-/Content.*/Shuttles @metalgearsloth
-/Content.*/Weapons @metalgearsloth
+# Standalone files in the root repo
+/* @MilonPL
