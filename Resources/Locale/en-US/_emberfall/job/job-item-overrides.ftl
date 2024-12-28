@@ -24,6 +24,7 @@ ent-ClothingUniformJumpskirtCapFormalDress = commanding officer's formal dress
 ent-ClothingOuterWinterCap = commanding officer's winter coat
 ent-ClothingOuterArmorCaptainCarapace = commanding officer's carapace
 ent-ClothingNeckCloakCap = commanding officer's cloak
+ent-ClothingNeckCloakCapFormal = commanding officer's formal cloak
 ent-ClothingNeckMantleCap = commanding officer's mantle
     .desc = A comfortable and chique mantle befitting of only the most experienced CO.
 ent-ClothingMaskGasCaptain =
@@ -35,12 +36,25 @@ ent-CaptainPDA = commanding officer PDA
 ent-RubberStampCaptain = commanding officer's rubber stamp
 ent-PenCap = CO's fountain pen
     .desc = A luxurious fountain pen for the Commanding Officer.
+ent-DrinkFlask = commanding officer's flask
+    .desc = A metal flask belonging to the commanding officer.
+ent-MobFoxRenault =
+    .desc = The commanding officer's trustworthy fox.
 ent-CaptainSabre = A ceremonial weapon belonging to the commanding officer of the station.
 ent-ClothingHeadHelmetHardsuitCap = commanding officer's hardsuit helmet
     .desc = Special hardsuit helmet, fitted to the Commanding Officer of the station.
 ent-ClothingOuterHardsuitCap = commanding officer's armored spacesuit
     .desc = A formal armored spacesuit, made for the station's commanding officer.
+ent-JetpackCaptain = commanding officer's jetpack
 ent-LockerCaptain = commanding officer's locker
+ent-DefaultStationBeaconCaptainsQuarters =
+    .suffix = CO's Quarters
+ent-LockableButtonCaptain =
+    .suffix = CO
+ent-AirlockCaptainLocked =
+    .suffix = CO, Locked
+ent-AirlockCaptainGlassLocked =
+    .suffix = CO, Locked
 # TODO: Add missing items found during testing to this list. 
 # The goal: don't let there be a mention of captain unless it's in the context of like, pirates or something else.
 
@@ -60,6 +74,8 @@ ent-ClothingOuterWinterHoP = executive officer's winter coat
 ent-ClothingHeadHatHoodWinterHOP = executive officer's winter coat hood
 ent-RubberStampHop = executive officer's rubber stamp
 ent-LockerHeadOfPersonnel = executive officer's locker
+ent-DefaultStationBeaconHOPOffice =
+    .suffix = XO's office
 # TODO: Add missing items found during testing to this list.
 # The goal: Most of the XO's stuff will be resprited so they're not just a HoP reskin.
 # CSS (Chief Service Supervisor) actually does the intended of the HoP (by managing Service.)
@@ -67,7 +83,26 @@ ent-LockerHeadOfPersonnel = executive officer's locker
 # Inspector (Inspector Gadget)
 ent-ClothingNeckTieDet = inspector's tie
 ent-ClothingOuterVestDetective = inspector's vest
+ent-ClothingOuterCoatDetective = inspector trenchcoat
 ent-RubberStampDetective = inspector's rubber stamp
+ent-VendingMachineDetDrobe = InspectDrobe
+    .desc = A machine for all your detective needs, as long as you need clothes.
+ent-LockerDetective = inspector's cabinet
+ent-DetectivePDA = inspector PDA
+ent-WeaponRevolverInspector = Investigator
+    .desc = A inspector's best friend. Uses .45 magnum ammo.
+ent-DoorElectronicsDetective=
+    .suffix = Inspector, Locked
+ent-WindoorSecureDetectiveLocked =
+    .suffix = Inspector, Locked
+ent-AirlockDetectiveLocked =
+    .suffix = Inspector, Locked
+ent-AirlockDetectiveGlassLocked =
+    .suffix = Inspector, Locked
+ent-WindoorSecureDetectiveLocked =
+    .suffix = Inspector, Locked
+ent-DefaultStationBeaconDetectiveRoom = 
+    .suffix = Inspector's Room
 # TODO: I actually have no idea if the det has that many items that actually mention the det - there's more items that mention PIs
 
 # Pharmacist
