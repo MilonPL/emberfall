@@ -8,11 +8,8 @@ public sealed class EmberfallModel
     {
         [Column("emberfallprofile_id")]
         public int Id { get; set; }
-
-        [Column("profile_id")]
-
         public int ProfileId { get; set; }
-        public Profile Profile { get; set; } = null!;
-        public string CustomSpeciesName { get; set; } = string.Empty;
+        public virtual Profile Profile { get; set; } = null!;
+        public string? CustomSpeciesName { get; set; } = string.Empty;
     }
 }

@@ -599,7 +599,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnName("emberfallprofile_id");
 
                     b.Property<string>("CustomSpeciesName")
-                        .IsRequired()
                         .HasMaxLength(32)
                         .HasColumnType("TEXT")
                         .HasColumnName("custom_species_name");

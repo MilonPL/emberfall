@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Postgres
+namespace Content.Server.Database.Migrations.Sqlite
 {
     /// <inheritdoc />
     public partial class EmberfallProfile : Migration
@@ -15,10 +14,10 @@ namespace Content.Server.Database.Migrations.Postgres
                 name: "emberfall_profile",
                 columns: table => new
                 {
-                    emberfallprofile_id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    profile_id = table.Column<int>(type: "integer", nullable: false),
-                    custom_species_name = table.Column<string>(type: "character varying(32)", maxLength: 32, nullable: false)
+                    emberfallprofile_id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    profile_id = table.Column<int>(type: "INTEGER", nullable: false),
+                    custom_species_name = table.Column<string>(type: "TEXT", maxLength: 32, nullable: true)
                 },
                 constraints: table =>
                 {
