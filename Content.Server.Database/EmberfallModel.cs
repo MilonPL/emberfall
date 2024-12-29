@@ -10,6 +10,6 @@ public sealed class EmberfallModel
         public int Id { get; set; }
         public int ProfileId { get; set; }
         public virtual Profile Profile { get; set; } = null!;
-        public string? CustomSpeciesName { get; set; }
+        public string? CustomSpeciesName { get; set; } = null!;
     }
 }
