@@ -47,8 +47,6 @@ ent-ClothingOuterHardsuitCap = commanding officer's armored spacesuit
     .desc = A formal armored spacesuit, made for the station's commanding officer.
 ent-JetpackCaptain = commanding officer's jetpack
 ent-LockerCaptain = commanding officer's locker
-ent-LockableButtonCaptain =
-    .suffix = CO
 # TODO: Add missing items found during testing to this list. 
 # The goal: don't let there be a mention of captain unless it's in the context of like, pirates or something else.
 

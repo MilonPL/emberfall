@@ -256,7 +256,7 @@
 
 - type: entity
   id: LockableButtonCaptain
-  suffix: Captain
+  suffix: CO # Emberfall: Captain -> CO
   parent: LockableButton
   components:
   - type: AccessReader
@@ -264,7 +264,7 @@
 
 - type: entity
   id: LockableButtonHeadOfPersonnel
-  suffix: HeadOfPersonnel
+  suffix: ExecutiveOfficer # Emberfall: HOP -> XO
   parent: LockableButton
   components:
   - type: AccessReader
@@ -328,7 +328,7 @@
 
 - type: entity
   id: LockableButtonDetective
-  suffix: Detective
+  suffix: Inspector # Emberfall: Detective -> Inspector
   parent: LockableButton
   components:
   - type: AccessReader
