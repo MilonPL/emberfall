@@ -47,8 +47,6 @@ ent-ClothingOuterHardsuitCap = commanding officer's armored spacesuit
     .desc = A formal armored spacesuit, made for the station's commanding officer.
 ent-JetpackCaptain = commanding officer's jetpack
 ent-LockerCaptain = commanding officer's locker
-ent-DefaultStationBeaconCaptainsQuarters =
-    .suffix = CO's Quarters
 ent-LockableButtonCaptain =
     .suffix = CO
 # TODO: Add missing items found during testing to this list. 
@@ -70,8 +68,6 @@ ent-ClothingOuterWinterHoP = executive officer's winter coat
 ent-ClothingHeadHatHoodWinterHOP = executive officer's winter coat hood
 ent-RubberStampHop = executive officer's rubber stamp
 ent-LockerHeadOfPersonnel = executive officer's locker
-ent-DefaultStationBeaconHOPOffice =
-    .suffix = XO's office
 # TODO: Add missing items found during testing to this list.
 # The goal: Most of the XO's stuff will be resprited so they're not just a HoP reskin.
 # CSS (Chief Service Supervisor) actually does the intended of the HoP (by managing Service.)
@@ -89,8 +85,6 @@ ent-WeaponRevolverInspector = Investigator
     .desc = A inspector's best friend. Uses .45 magnum ammo.
 ent-DoorElectronicsDetective =
     .suffix = Inspector, Locked
-ent-DefaultStationBeaconDetectiveRoom = 
-    .suffix = Inspector's Room
 # TODO: I actually have no idea if the det has that many items that actually mention the det - there's more items that mention PIs
 
 # Pharmacist

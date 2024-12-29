@@ -148,18 +148,18 @@
 - type: entity
   parent: DefaultStationBeaconCommand
   id: DefaultStationBeaconCaptainsQuarters
-  suffix: Captain's Quarters
+  suffix: CO's Quarters # Emberfall: Captain -> CO
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-captain
+    defaultText: station-beacon-commanding-officer # Emberfall: Captain -> CO
 
 - type: entity
   parent: DefaultStationBeaconCommand
   id: DefaultStationBeaconHOPOffice
-  suffix: HOP's Office
+  suffix: XO's Office # Emberfall: HOP -> XO
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-hop
+    defaultText: station-beacon-executive-officer # Emberfall: HOP -> XO
 
 - type: entity
   parent: DefaultStationBeacon
@@ -213,10 +213,10 @@
 - type: entity
   parent: DefaultStationBeaconSecurity
   id: DefaultStationBeaconDetectiveRoom
-  suffix: Detective's Room
+  suffix: Inspector's Room # Emberfall: Detective -> Inspector
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-detective
+    defaultText: station-beacon-inspector # Emberfall: Detective -> Inspector
 
 - type: entity
   parent: DefaultStationBeaconSecurity
