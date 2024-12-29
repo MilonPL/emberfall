@@ -225,13 +225,16 @@ namespace Content.Client.Lobby.UI
 
             CustomSpeciesNameEdit.OnTextChanged += args =>
             {
-                var text = new string(args.Text.Take(16).Where(c => char.IsLetter(c)).ToArray());
-                if (text != args.Text)
-                {
-                    CustomSpeciesNameEdit.Text = text;
-                    return;
-                }
-                SetCustomSpeciesName(text);
+                // Enforce length limit first
+                if (args.Text.Length > 16)
+                    CustomSpeciesNameEdit.Text = args.Text[..16];
+
+                // Filter to letters only
+                var newText = string.Concat(CustomSpeciesNameEdit.Text.Where(char.IsLetter));
+                if (newText != CustomSpeciesNameEdit.Text)
+                    CustomSpeciesNameEdit.Text = newText;
+
+                SetCustomSpeciesName(CustomSpeciesNameEdit.Text);
             };
 
             #endregion
