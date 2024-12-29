@@ -191,6 +191,12 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             {
                 AddComp<DetailExaminableComponent>(entity.Value).Content = profile.FlavorText;
             }
+
+            // Emberfall - Custom species
+            if (!string.IsNullOrEmpty(profile.CustomSpeciesName) && TryComp<HumanoidAppearanceComponent>(entity.Value, out var comp))
+            {
+                comp.CustomSpeciesName = profile.CustomSpeciesName;
+            }
         }
 
         DoJobSpecials(job, entity.Value);

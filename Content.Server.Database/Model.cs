@@ -56,6 +56,20 @@ namespace Content.Server.Database
                 .HasIndex(p => new {p.Slot, PrefsId = p.PreferenceId})
                 .IsUnique();
 
+            modelBuilder.Entity<EmberfallModel.EmberfallProfile>(entity =>
+            {
+                entity.HasOne(e => e.Profile)
+                    .WithOne(p => p.EmberfallProfile)
+                    .HasForeignKey<EmberfallModel.EmberfallProfile>(e => e.ProfileId)
+                    .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasIndex(e => e.ProfileId)
+                    .IsUnique();
+
+                entity.Property(e => e.CustomSpeciesName)
+                    .HasMaxLength(32);
+            });
+
             modelBuilder.Entity<Antag>()
                 .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.AntagName})
                 .IsUnique();
@@ -422,6 +436,8 @@ namespace Content.Server.Database
 
         public int PreferenceId { get; set; }
         public Preference Preference { get; set; } = null!;
+
+        public EmberfallModel.EmberfallProfile? EmberfallProfile { get; set; }
     }
 
     public class Job

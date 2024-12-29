@@ -77,6 +77,12 @@ namespace Content.Shared.Preferences
         [DataField]
         public ProtoId<SpeciesPrototype> Species { get; set; } = SharedHumanoidAppearanceSystem.DefaultSpecies;
 
+        /// <summary>
+        /// Emberfall: Custom species name.
+        /// </summary>
+        [DataField]
+        public string CustomSpeciesName { get; set; } = string.Empty;
+
         [DataField]
         public int Age { get; set; } = 18;
 
@@ -129,6 +135,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string customSpeciesName, // Emberfall
             int age,
             Sex sex,
             Gender gender,
@@ -143,6 +150,7 @@ namespace Content.Shared.Preferences
             Name = name;
             FlavorText = flavortext;
             Species = species;
+            CustomSpeciesName = customSpeciesName; // Emberfall
             Age = age;
             Sex = sex;
             Gender = gender;
@@ -174,6 +182,7 @@ namespace Content.Shared.Preferences
             : this(other.Name,
                 other.FlavorText,
                 other.Species,
+                other.CustomSpeciesName, // Emberfall
                 other.Age,
                 other.Sex,
                 other.Gender,
@@ -290,6 +299,12 @@ namespace Content.Shared.Preferences
         public HumanoidCharacterProfile WithSpecies(string species)
         {
             return new(this) { Species = species };
+        }
+
+        // Emberfall - Custom species name
+        public HumanoidCharacterProfile WithCustomSpeciesName(string customSpeciesName)
+        {
+            return new(this) { CustomSpeciesName = customSpeciesName };
         }
 
 
@@ -462,6 +477,7 @@ namespace Content.Shared.Preferences
             if (Sex != other.Sex) return false;
             if (Gender != other.Gender) return false;
             if (Species != other.Species) return false;
+            if (CustomSpeciesName != other.CustomSpeciesName) return false; // Emberfall
             if (PreferenceUnavailable != other.PreferenceUnavailable) return false;
             if (SpawnPriority != other.SpawnPriority) return false;
             if (!_jobPriorities.SequenceEqual(other._jobPriorities)) return false;
@@ -548,6 +564,19 @@ namespace Content.Shared.Preferences
                 flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText);
             }
 
+            // Emberfall - custom species name
+            string customSpeciesName;
+            if (CustomSpeciesName.Length > MaxNameLength)
+            {
+                customSpeciesName = FormattedMessage.RemoveMarkupOrThrow(CustomSpeciesName)[..MaxDescLength];
+            }
+            else
+            {
+                customSpeciesName = FormattedMessage.RemoveMarkupOrThrow(CustomSpeciesName);
+            }
+
+            // End Emberfall
+
             var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex);
 
             var prefsUnavailableMode = PreferenceUnavailable switch
@@ -595,6 +624,7 @@ namespace Content.Shared.Preferences
                          .ToList();
 
             Name = name;
+            CustomSpeciesName = customSpeciesName; // Emberfall
             FlavorText = flavortext;
             Age = age;
             Sex = sex;
