@@ -306,7 +306,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockCaptainLocked
-  suffix: Captain, Locked
+  suffix: CO, Locked # Emberfall: Captain -> CO
   components:
   - type: ContainerFill
     containers:
@@ -690,7 +690,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockCaptainGlassLocked
-  suffix: Captain, Locked
+  suffix: CO, Locked #Emberfall: Captain -> CO
   components:
   - type: ContainerFill
     containers:
@@ -1059,7 +1059,7 @@
 - type: entity
   parent: AirlockMaintCommandLocked
   id: AirlockMaintCaptainLocked
-  suffix: Captain, Locked
+  suffix: CO, Locked # Emberfall: Captain -> CO
   components:
   - type: ContainerFill
     containers:
@@ -1252,7 +1252,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecCaptainLocked
-  suffix: Captain, Locked
+  suffix: CO, Locked # Emberfall: Captain -> CO
   components:
   - type: ContainerFill
     containers:

@@ -51,10 +51,6 @@ ent-DefaultStationBeaconCaptainsQuarters =
     .suffix = CO's Quarters
 ent-LockableButtonCaptain =
     .suffix = CO
-ent-AirlockCaptainLocked =
-    .suffix = CO, Locked
-ent-AirlockCaptainGlassLocked =
-    .suffix = CO, Locked
 # TODO: Add missing items found during testing to this list. 
 # The goal: don't let there be a mention of captain unless it's in the context of like, pirates or something else.
 
