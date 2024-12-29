@@ -93,12 +93,6 @@ ent-WeaponRevolverInspector = Investigator
     .desc = A inspector's best friend. Uses .45 magnum ammo.
 ent-DoorElectronicsDetective =
     .suffix = Inspector, Locked
-ent-AirlockDetectiveLocked =
-    .suffix = Inspector, Locked
-ent-AirlockDetectiveGlassLocked =
-    .suffix = Inspector, Locked
-ent-WindoorSecureDetectiveLocked =
-    .suffix = Inspector, Locked
 ent-DefaultStationBeaconDetectiveRoom = 
     .suffix = Inspector's Room
 # TODO: I actually have no idea if the det has that many items that actually mention the det - there's more items that mention PIs
