@@ -81,8 +81,6 @@ ent-LockerDetective = inspector's cabinet
 ent-DetectivePDA = inspector PDA
 ent-WeaponRevolverInspector = Investigator
     .desc = A inspector's best friend. Uses .45 magnum ammo.
-ent-DoorElectronicsDetective =
-    .suffix = Inspector, Locked
 # TODO: I actually have no idea if the det has that many items that actually mention the det - there's more items that mention PIs
 
 # Pharmacist
