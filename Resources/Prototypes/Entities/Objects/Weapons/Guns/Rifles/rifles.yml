@@ -105,6 +105,7 @@
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
   description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -149,6 +150,7 @@
   parent: [BaseWeaponRifle, BaseRestrictedContraband]
   id: WeaponRifleLecter
   description: A high end military grade assault rifle. Uses .20 rifle ammo.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi

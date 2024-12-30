@@ -46,11 +46,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        startingItem: CartridgeLightRifle # Emberfall
         priority: 1
         whitelist:
           tags:
-            - CartridgePistol
+            - CartridgeLightRifle # Emberfall
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -79,6 +79,25 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: ItemSlots # Emberfall
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolHighCapacity
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazinePistolHighCapacity
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
   - type: Appearance
 
 - type: entity
@@ -113,6 +132,25 @@
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
   - type: ChamberMagazineAmmoProvider
     autoEject: true
+  - type: ItemSlots # Emberfall
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineHeavyPistolSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineHeavyPistolSubMachineGun
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeHeavyPistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeHeavyPistol
   - type: MagazineVisuals
     magState: mag
     steps: 6
@@ -165,11 +203,11 @@
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
           name: Chamber
-          startingItem: CartridgePistol
+          startingItem: CartridgeLightRifle # Emberfall
           priority: 1
           whitelist:
             tags:
-              - CartridgePistol
+              - CartridgeLightRifle # Emberfall
     - type: MagazineVisuals
       magState: mag
       steps: 1
@@ -181,6 +219,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
+  categories: [ HideSpawnMenu ] # Emberfall
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite

@@ -12,7 +12,7 @@
     whitelist:
       tags:
         - CartridgePistol
-    capacity: 10
+    capacity: 12 # Emberfall
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -45,7 +45,7 @@
     whitelist:
       tags:
         - CartridgePistol
-    capacity: 16
+    capacity: 20 # Emberfall
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -77,8 +77,8 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgePistol
-    capacity: 35
+        - CartridgeLightRifle # Emberfall
+    capacity: 40 # Emberfall
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -261,11 +261,11 @@
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    capacity: 30
-    proto: CartridgePistol
+    capacity: 40 # Emberfall
+    proto: CartridgeLightRifle # Emberfall
     whitelist:
       tags:
-        - CartridgePistol
+        - CartridgeLightRifle # Emberfall
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/bullet_insert.ogg
   - type: Sprite
@@ -294,7 +294,7 @@
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgePistolPractice
+    proto: CartridgeLightRiflePractice # Emberfall
   - type: Sprite
     layers:
     - state: practice
@@ -308,7 +308,7 @@
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgePistolUranium
+    proto: CartridgeLightRifleUranium # Emberfall
   - type: Sprite
     layers:
     - state: uranium

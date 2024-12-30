@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseWeaponPistol
+  id: WeaponPistolM23
+  name: M23 Patrol
+  description: Standard-issue sidearm. Features modern improvements like proper ergonomics and better sights, though some veterans still claim the old Mk58 was better.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/m23.rsi
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/m23.rsi
