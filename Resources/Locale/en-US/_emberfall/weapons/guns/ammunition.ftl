@@ -287,3 +287,43 @@ ent-BoxShotgunUranium = shell box (12 gauge uranium)
 ent-BoxShotgunPractice = shell box (12 gauge practice)
 
 ent-BoxShellTranquilizer = shell box (12 gauge tranquilizer)
+
+## Magazine boxes
+
+ent-BoxMagazinePistol = box of 9x19mm magazines
+
+ent-BoxMagazinePistolPractice = box of 9x19mm practice magazines
+
+ent-BoxMagazinePistolHighCapacity = box of 9x19mm machine pistol magazines
+
+ent-BoxMagazinePistolHighCapacityPractice = box of 9x19mm machine pistol practice magazines
+
+ent-BoxMagazinePistolSubMachineGun = box of 5.56x45mm SMG magazines
+
+ent-BoxMagazinePistolSubMachineGunPractice = box of 5.56x45mm SMG practice magazines
+
+ent-BoxMagazinePistolSubMachineGunTopMounted = box of 9x19mm WT550 magazines
+
+ent-BoxMagazineShotgun = box of 12 gauge ammo drums
+
+ent-BoxMagazineShotgunBeanbag = box of 12 gauge beanbag drums
+
+ent-BoxMagazineShotgunSlug = box of 12 gauge slug drums
+
+ent-BoxMagazineShotgunIncendiary = box of 12 gauge incendiary drums
+
+ent-BoxMagazineRifle = box of 7.62x51mm magazines
+
+ent-BoxMagazineRiflePractice = box of 7.62x51mm practice magazines
+
+ent-BoxMagazineLightRifle = box of 5.56x45mm magazines
+
+ent-BoxMagazineLightRiflePractice = box of 5.56x45mm practice magazines
+
+ent-BoxMagazineMagnumSubMachineGun = box of .44 Magnum Vector magazines
+
+ent-BoxMagazineMagnumSubMachineGunPractice = box of .44 Magnum Vector practice magazines
+
+ent-BoxMagazinePistolCaselessRifle = box of 4.73x33mm caseless pistol magazines
+
+ent-BoxMagazinePistolCaselessRiflePractice = box of 4.73x33mm caseless practice magazines

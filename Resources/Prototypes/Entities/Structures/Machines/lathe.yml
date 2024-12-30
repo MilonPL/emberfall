@@ -226,6 +226,13 @@
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
+      # Emberfall additions
+      - MagazineBoxHeavyPistol
+      - MagazineHeavyPistol
+      - MagazineHeavyPistolEmpty
+      - MagazineHeavyPistolSubMachineGun
+      - MagazineHeavyPistolSubMachineGunEmpty
+      # End Emberfall additions
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -397,6 +404,15 @@
       - MagazineLightRifleTracer
       - MagazinePistolSubMachineGunTracer
       - MagazineRifleTracer
+      - MagazineHeavyPistolSubMachineGunUranium
+      - MagazineHeavyPistolSubMachineGunIncendiary
+      - MagazineHeavyPistolSubMachineGunTracer
+      - MagazineHeavyPistolTracer
+      - MagazineHeavyPistolIncendiary
+      - MagazineHeavyPistolUranium
+      - MagazineBoxHeavyPistolIncendiary
+      - MagazineBoxHeavyPistolUranium
+      - MagazineBoxHeavyPistolTracer
       - MagazineBoxLightRifleTracer
       - MagazineBoxPistolTracer
       - MagazineBoxRifleTracer
@@ -741,6 +757,15 @@
       - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
+      # Emberfall additions
+      - MagazineHeavyPistolSubMachineGun
+      - MagazineHeavyPistolSubMachineGunEmpty
+      - MagazineHeavyPistolSubMachineGunPractice
+      - MagazineHeavyPistol
+      - MagazineHeavyPistolEmpty
+      - MagazineHeavyPistolPractice
+      - MagazineBoxHeavyPistol
+      - MagazineBoxHeavyPistolPractice
     dynamicRecipes:
       - BoxBeanbag
       - BoxShotgunIncendiary
@@ -797,6 +822,14 @@
       - MagazineLightRifleTracer
       - MagazinePistolSubMachineGunTracer
       - MagazineRifleTracer
+      - MagazineHeavyPistolIncendiary
+      - MagazineHeavyPistolUranium
+      - MagazineHeavyPistolSubMachineGunUranium
+      - MagazineHeavyPistolSubMachineGunIncendiary
+      - MagazineHeavyPistolSubMachineGunTracer
+      - MagazineHeavyPistolTracer
+      - MagazineBoxHeavyPistolIncendiary
+      - MagazineBoxHeavyPistolUranium
       - MagazineBoxLightRifleTracer
       - MagazineBoxPistolTracer
       - MagazineBoxRifleTracer

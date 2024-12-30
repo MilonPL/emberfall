@@ -1,6 +1,4 @@
-using System.Linq; // Emberfall
 using Content.Shared.Actions;
-using Content.Shared.Containers.ItemSlots; // Emberfall
 using Content.Shared.Examine;
 using Content.Shared.Hands;
 using Content.Shared.Verbs;
@@ -19,11 +17,8 @@ public abstract partial class SharedGunSystem
         using (args.PushGroup(nameof(GunComponent)))
         {
             // Emberfall - Add caliber info
-            if (HasComp<ItemSlotsComponent>(uid) &&
-            _slots.TryGetSlot(uid, "gun_chamber", out var chamberSlot) &&
-                chamberSlot.Whitelist?.Tags is { Count: > 0 })
+            if (TryGetGunCaliber(uid, out var caliber))
             {
-                var caliber = GetCaliberFromTag(chamberSlot.Whitelist.Tags.First());
                 args.PushMarkup(Loc.GetString("gun-examine-caliber",
                     ("color", FireRateExamineColor),
                     ("caliber", caliber)));

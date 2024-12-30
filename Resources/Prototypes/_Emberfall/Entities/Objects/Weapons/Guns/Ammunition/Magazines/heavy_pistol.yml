@@ -18,7 +18,6 @@
   abstract: true
   parent: BaseMagazineHeavyPistol
   id: BaseMagazineHeavyPistolSubMachineGun
-  name: SMG magazine (10mm auto)
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistolTracer
-  name: pistol magazine (.35 auto tracer)
+  name: pistol magazine (9x19mm tracer)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolTracer

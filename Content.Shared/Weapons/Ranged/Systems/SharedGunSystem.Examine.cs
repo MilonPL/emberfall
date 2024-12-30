@@ -1,3 +1,6 @@
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Verbs;
 using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Utility;
@@ -72,6 +75,30 @@ public abstract partial class SharedGunSystem
         ));
 
         return msg;
+    }
+
+    private bool TryGetGunCaliber(EntityUid uid, [NotNullWhen(true)] out string? caliber)
+    {
+        caliber = null;
+
+        // Try standard gun with ItemSlots first
+        if (HasComp<ItemSlotsComponent>(uid) &&
+            _slots.TryGetSlot(uid, "gun_chamber", out var chamberSlot) &&
+            chamberSlot.Whitelist?.Tags is { Count: > 0 })
+        {
+            caliber = GetCaliberFromTag(chamberSlot.Whitelist.Tags.First());
+            return true;
+        }
+
+        // Try revolver
+        if (TryComp<RevolverAmmoProviderComponent>(uid, out var revolver) &&
+            revolver.Whitelist?.Tags is { Count: > 0 })
+        {
+            caliber = GetCaliberFromTag(revolver.Whitelist.Tags.First());
+            return true;
+        }
+
+        return false;
     }
 
     private static string GetCaliberFromTag(string tag)
