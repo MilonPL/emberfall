@@ -182,7 +182,7 @@
     soundGunshot:
       path: /Audio/_Emberfall/Weapons/Guns/Gunshots/nightshade.ogg
       params:
-        volume: -8
+        volume: -4
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
