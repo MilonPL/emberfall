@@ -6,7 +6,11 @@
   description: SC's licensed copy of the classic Vector design. Advanced recoil system makes it surprisingly controllable despite the powerful cartridge.
   components:
   - type: Gun
-    fireRate: 6
+    projectileSpeed: 40
+    fireRate: 8
+    angleIncrease: 1.8
+    minAngle: 3
+    maxAngle: 12
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg

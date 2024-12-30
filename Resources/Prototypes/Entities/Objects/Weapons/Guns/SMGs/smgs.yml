@@ -72,6 +72,10 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
+    projectileSpeed: 37.5 # Emberfall
+    angleIncrease: 1 # Emberfall
+    minAngle: 4 # Emberfall
+    maxAngle: 22 # Emberfall
     fireRate: 10
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -118,9 +122,11 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -16
+    minAngle: -18 # Emberfall - 3 deg min
+    maxAngle: -18 # Emberfall - 14 deg max
   - type: Gun
+    projectileSpeed: 37.5 # Emberfall
+    fireRate: 8 # Emberfall
     minAngle: 21
     maxAngle: 32
     shotsPerBurst: 5
@@ -178,6 +184,7 @@
       minAngle: -19
       maxAngle: -16
     - type: Gun
+      projectileSpeed: 40 # Emberfall
       minAngle: 21
       maxAngle: 32
       fireRate: 12
@@ -287,10 +294,11 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 5.5
-    minAngle: 1
-    maxAngle: 6
-    angleIncrease: 1.5
+    projectileSpeed: 37.5 # Emberfall
+    fireRate: 6.5 # Emberfall
+    minAngle: 2 # Emberfall
+    maxAngle: 8 # Emberfall
+    angleIncrease: 1 # Emberfall
     angleDecay: 6
     selectedMode: FullAuto
     shotsPerBurst: 5

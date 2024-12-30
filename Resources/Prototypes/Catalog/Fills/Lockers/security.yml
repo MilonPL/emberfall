@@ -179,6 +179,7 @@
   parent: [GunSafeBaseSecure, BaseRestrictedContraband]
   id: GunSafeRifleLecter
   name: lecter safe
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: StorageFill
     contents:
@@ -191,6 +192,7 @@
   parent: [GunSafeBaseSecure, BaseRestrictedContraband]
   id: GunSafeSubMachineGunDrozd
   name: drozd safe
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: StorageFill
     contents:

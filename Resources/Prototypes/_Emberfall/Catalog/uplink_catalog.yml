@@ -1,0 +1,47 @@
+- type: listing
+  id: UplinkSubMachineGunAtreides
+  name: uplink-smg-atreides-name
+  description: uplink-smg-atreides-desc
+  productEntity: WeaponSubMachineGunAtreides
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkPistolPollock
+  name: uplink-pistol-pollock-name
+  description: uplink-pistol-pollock-desc
+  productEntity: WeaponPistolPollock
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 3
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkMagazinePistolHighCapacity
+  name: uplink-pistol-magazine-high-capacity-name
+  description: uplink-pistol-magazine-high-capacity-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red-icon }
+  productEntity: MagazinePistolHighCapacity
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkMagazineHeavyPistol
+  name: uplink-pistol-magazine-heavy-name
+  description: uplink-pistol-magazine-heavy-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
+  productEntity: MagazineHeavyPistol
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo

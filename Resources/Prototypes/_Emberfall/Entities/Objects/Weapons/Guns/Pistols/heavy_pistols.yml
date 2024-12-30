@@ -29,6 +29,7 @@
   name: M25 Tactical
   description: A chunky pistol chambered in 10mm Auto. Makes up for its bulk with impressive stopping power.
   components:
+  - type: Gun
   - type: Sprite
     sprite: _Emberfall/Objects/Weapons/Guns/Pistols/m25.rsi
   - type: Clothing

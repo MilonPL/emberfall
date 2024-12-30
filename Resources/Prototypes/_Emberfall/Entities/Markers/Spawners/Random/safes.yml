@@ -1,0 +1,82 @@
+- type: entity
+  abstract: true
+  parent: MarkerBase
+  id: BaseGunSafeSpawner
+  name: random safe spawner
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: Structures/Storage/closet.rsi
+      state: shotguncase
+  - type: EntityTableSpawner
+    offset: 0
+
+- type: entity
+  parent: BaseGunSafeSpawner
+  id: GunSafeShotgunSpawner
+  suffix: Shotgun
+  components:
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: GunSafeShotgunEnforcer
+        weight: 0.65
+      - id: GunSafeShotgunKammerer
+        weight: 0.35
+
+- type: entity
+  parent: BaseGunSafeSpawner
+  id: GunSafeRifleSpawner
+  suffix: Rifle, 7.62x51mm
+  components:
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: GunSafeRifleVulcan
+        weight: 0.7
+      - id: GunSafeRifleTenebra
+        weight: 0.3
+
+- type: entity
+  parent: BaseGunSafeSpawner
+  id: GunSafeLightRifleSpawner
+  suffix: Rifle, 5.56x45mm
+  components:
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: GunSafeLightRifleLecter
+      - id: GunSafeLightRifleM90
+
+- type: entity
+  parent: BaseGunSafeSpawner
+  id: GunSafeSMGSpawner
+  suffix: SMG
+  components:
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: GunSafeSubMachineGunDrozd
+        weight: 0.65
+      - id: GunSafeSubMachineGunWt550
+        weight: 0.25
+      - id: GunSafeSubMachineGunVector
+        weight: 0.1
+
+- type: entity
+  parent: BaseGunSafeSpawner
+  id: GunSafePistolSpawner
+  suffix: Pistol
+  components:
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: GunSafePistolMk58
+        weight: 0.4
+      - id: GunSafePistolM23
+        weight: 0.3
+      - id: GunSafePistolM25
+        weight: 0.2
+      - id: GunSafePistolPollock
+        weight: 0.1
