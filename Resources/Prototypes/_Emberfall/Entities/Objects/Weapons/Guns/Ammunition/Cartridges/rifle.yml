@@ -1,0 +1,7 @@
+- type: entity
+  parent: BaseCartridgeRifle
+  id: CartridgeRifleTracer
+  name: cartridge (7.62x51mm tracer)
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleTracer

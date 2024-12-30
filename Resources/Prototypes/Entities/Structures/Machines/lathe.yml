@@ -392,6 +392,15 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      # Emberfall additions
+      - MagazinePistolTracer
+      - MagazineLightRifleTracer
+      - MagazinePistolSubMachineGunTracer
+      - MagazineRifleTracer
+      - MagazineBoxLightRifleTracer
+      - MagazineBoxPistolTracer
+      - MagazineBoxRifleTracer
+      # End Emberfall
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -783,6 +792,15 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      # Emberfall additions
+      - MagazinePistolTracer
+      - MagazineLightRifleTracer
+      - MagazinePistolSubMachineGunTracer
+      - MagazineRifleTracer
+      - MagazineBoxLightRifleTracer
+      - MagazineBoxPistolTracer
+      - MagazineBoxRifleTracer
+      # End Emberfall
   - type: MaterialStorage
     whitelist:
       tags:

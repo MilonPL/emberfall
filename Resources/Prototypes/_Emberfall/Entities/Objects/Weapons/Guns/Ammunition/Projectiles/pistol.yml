@@ -1,0 +1,5 @@
+- type: entity
+  parent: [ BaseBulletTracerGreen, BulletPistol ]
+  id: BulletPistolTracer
+  name: bullet (9x19mm tracer)
+  categories: [ HideSpawnMenu ]

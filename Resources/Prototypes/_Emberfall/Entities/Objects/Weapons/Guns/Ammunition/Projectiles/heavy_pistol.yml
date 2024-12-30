@@ -43,3 +43,9 @@
       types:
         Radiation: 15
         Piercing: 20
+
+- type: entity
+  parent: [ BaseBulletTracerGreen, BulletHeavyPistol ]
+  id: BulletHeavyPistolTracer
+  name: bullet (10mm auto tracer)
+  categories: [ HideSpawnMenu ]

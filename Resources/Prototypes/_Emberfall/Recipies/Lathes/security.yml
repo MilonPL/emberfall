@@ -1,0 +1,93 @@
+# Tracers: magazines
+
+# 9x19mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolTracer
+  result: MagazinePistolTracer
+  materials:
+    Steel: 145
+    Plastic: 50
+
+# 10mm auto
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolTracer
+  result: MagazineHeavyPistolTracer
+  materials:
+    Steel: 165
+    Plastic: 50
+
+# 10mm SMG
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunTracer
+  result: MagazineHeavyPistolSubMachineGunTracer
+  materials:
+    Steel: 195
+    Plastic: 50
+
+# 5.56x45mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineLightRifleTracer
+  result: MagazineLightRifleTracer
+  materials:
+    Steel: 365
+    Plastic: 135
+
+# 5.56x45mm SMG
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSubMachineGunTracer
+  result: MagazinePistolSubMachineGunTracer
+  materials:
+    Steel: 565
+    Plastic: 100
+
+# 7.62x51mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineRifleTracer
+  result: MagazineRifleTracer
+  materials:
+    Steel: 475
+    Plastic: 125
+
+# Tracers: boxes
+
+# 9x19mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxPistolTracer
+  result: MagazineBoxPistolTracer
+  materials:
+    Steel: 600
+    Plastic: 200
+
+# 10mm auto
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistolTracer
+  result: MagazineBoxHeavyPistolTracer
+  materials:
+    Steel: 700
+    Plastic: 225
+
+# 5.56x45mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxLightRifleTracer
+  result: MagazineBoxLightRifleTracer
+  materials:
+    Steel: 800
+    Plastic: 250
+
+# 7.62x51mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxRifleTracer
+  result: MagazineBoxRifleTracer
+  materials:
+    Steel: 900
+    Plastic: 300

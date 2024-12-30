@@ -71,3 +71,10 @@
       map: [ "enum.AmmoVisualLayers.Tip" ]
       color: "#65fe08"
 
+- type: entity
+  parent: BaseCartridgeHeavyPistol
+  id: CartridgeHeavyPistolTracer
+  name: cartridge (10mm auto tracer)
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolTracer

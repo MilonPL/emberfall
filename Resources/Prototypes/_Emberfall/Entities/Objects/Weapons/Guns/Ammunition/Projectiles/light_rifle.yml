@@ -1,0 +1,5 @@
+- type: entity
+  parent: [ BaseBulletTracer, BulletLightRifle ]
+  id: BulletLightRifleTracer
+  name: bullet (5.56x45mm tracer)
+  categories: [ HideSpawnMenu ]

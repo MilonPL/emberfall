@@ -93,6 +93,34 @@
       map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
+  parent: BaseMagazineHeavyPistol
+  id: MagazineHeavyPistolIncendiary
+  name: pistol magazine (10mm auto incendiary)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeHeavyPistolIncendiary
+  - type: Sprite
+    layers:
+    - state: red
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-1
+      map: [ "enum.GunVisualLayers.Mag" ]
+
+- type: entity
+  parent: BaseMagazineHeavyPistol
+  id: MagazineHeavyPistolTracer
+  name: pistol magazine (10mm auto tracer)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeHeavyPistolTracer
+  - type: Sprite
+    layers:
+    - state: red
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-1
+      map: [ "enum.GunVisualLayers.Mag" ]
+
+- type: entity
   parent: BaseMagazineHeavyPistolSubMachineGun
   id: MagazineHeavyPistolSubMachineGunEmpty
   name: SMG magazine (10mm auto any)
@@ -154,6 +182,20 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeHeavyPistolIncendiary
+  - type: Sprite
+    layers:
+    - state: incendiary
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-1
+      map: [ "enum.GunVisualLayers.Mag" ]
+
+- type: entity
+  parent: BaseMagazineHeavyPistolSubMachineGun
+  id: MagazineHeavyPistolSubMachineGunTracer
+  name: SMG magazine (10mm auto tracer)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeHeavyPistolTracer
   - type: Sprite
     layers:
     - state: red
