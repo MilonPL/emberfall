@@ -16,7 +16,7 @@
   - type: GunRequiresWield
   - type: GunWieldBonus
     minAngle: -19.5 # 1.5 deg min
-    maxAngle: -23 # 9 deg max
+    maxAngle: -23.5 # 8.5 deg max
   - type: Gun
     projectileSpeed: 45
     fireRate: 5.5
@@ -65,7 +65,7 @@
   - type: GunRequiresWield
   - type: GunWieldBonus
     minAngle: -20 # 1 deg min
-    maxAngle: -24.5 # 7.5 deg max
+    maxAngle: -25 # 7 deg max
   - type: Gun
     projectileSpeed: 45
     fireRate: 4.5

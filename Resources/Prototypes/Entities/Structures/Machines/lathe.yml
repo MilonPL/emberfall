@@ -232,7 +232,7 @@
       - MagazineHeavyPistolEmpty
       - MagazineHeavyPistolSubMachineGun
       - MagazineHeavyPistolSubMachineGunEmpty
-      # End Emberfall additions
+      # End Emberfall
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -766,6 +766,7 @@
       - MagazineHeavyPistolPractice
       - MagazineBoxHeavyPistol
       - MagazineBoxHeavyPistolPractice
+      # End Emberfall
     dynamicRecipes:
       - BoxBeanbag
       - BoxShotgunIncendiary

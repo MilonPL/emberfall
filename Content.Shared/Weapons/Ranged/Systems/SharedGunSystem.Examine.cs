@@ -64,7 +64,7 @@ public abstract partial class SharedGunSystem
         msg.PushNewline();
         msg.AddMarkupOrThrow(Loc.GetString("gun-examine-fire-rate",
             ("color", FireRateExamineColor),
-            ("value", MathF.Round(ent.Comp.FireRateModified * 60f, 0))
+            ("value", MathF.Round(ent.Comp.FireRateModified, 1))
         ));
 
         // Muzzle Velocity (ProjectileSpeed * 10)

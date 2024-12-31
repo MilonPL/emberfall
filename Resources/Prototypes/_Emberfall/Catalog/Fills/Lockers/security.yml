@@ -83,7 +83,7 @@
       amount: 8
 
 - type: entity
-  parent: [GunSafeBaseSecure, BaseRestrictedContraband]
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
   id: GunSafePistolPollock
   name: pollock safe
   components:

@@ -1,5 +1,4 @@
 # 10mm auto magazines
-
 - type: latheRecipe
   parent: BaseEmptyAmmoRecipe
   id: MagazineHeavyPistolEmpty
@@ -106,7 +105,6 @@
   materials:
     Plastic: 350
     Uranium: 700
-
 
 # Tracers: magazines
 
