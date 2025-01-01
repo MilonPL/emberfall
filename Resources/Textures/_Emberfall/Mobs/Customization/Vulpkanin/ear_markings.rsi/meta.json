@@ -1,8 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from https://github.com/DeltaV-Station/Delta-v/commit/65d35d0b3c20aa4e8a0e749a4de8392e53051e86",
-  "size": {"x": 32, "y": 32},
+  "copyright": "https://github.com/DeltaV-Station/Delta-v/commit/e5426c4e3b160472b7d2913e1f89897bf72d9577",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
   "states": [
     {
       "name": "vulp",
@@ -54,6 +57,10 @@
     },
     {
       "name": "fox",
+      "directions": 4
+    },
+    {
+      "name": "fox-inner",
       "directions": 4
     },
     {
