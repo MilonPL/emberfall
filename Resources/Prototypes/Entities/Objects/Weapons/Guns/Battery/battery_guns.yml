@@ -436,8 +436,8 @@
     fireRate: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
-  - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisablerPractice
+  - type: HitscanBatteryAmmoProvider # Emberfall
+    proto: DisablerPractice # Emberfall
     fireCost: 100
   - type: Tag
     tags:
@@ -464,8 +464,8 @@
     slots:
       - suitStorage
       - Belt
-  - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisabler
+  - type: HitscanBatteryAmmoProvider # Emberfall
+    proto: Disabler # Emberfall
     fireCost: 100
   - type: GuideHelp
     guides:

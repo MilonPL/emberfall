@@ -25,6 +25,7 @@
     - BaseStationSiliconLawCrewsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
+    - BaseStationTerrain # Emberfall
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform

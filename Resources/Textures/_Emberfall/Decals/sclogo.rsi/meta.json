@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Original work by MilonPL",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sclogo1"
+    },
+    {
+      "name": "sclogo2"
+    },
+    {
+      "name": "sclogo3"
+    },
+    {
+      "name": "sclogo4"
+    },
+    {
+      "name": "sclogo5"
+    },
+    {
+      "name": "sclogo6"
+    },
+    {
+      "name": "sclogo7"
+    },
+    {
+      "name": "sclogo8"
+    },
+    {
+      "name": "sclogo9"
+    },
+    {
+      "name": "sclogo10"
+    },
+    {
+      "name": "sclogo11"
+    },
+    {
+      "name": "sclogo12"
+    },
+    {
+      "name": "sclogo13"
+    },
+    {
+      "name": "sclogo14"
+    },
+    {
+      "name": "sclogo15"
+    },
+    {
+      "name": "sclogo16"
+    },
+    {
+      "name": "sclogo17"
+    },
+    {
+      "name": "sclogo18"
+    },
+    {
+      "name": "sclogo19"
+    },
+    {
+      "name": "sclogo20"
+    }
+  ]
+}

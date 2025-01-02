@@ -1,0 +1,22 @@
+- type: entity
+  parent: AirlockGlassShuttle
+  id: AirlockExternalGlassSpaceElevator
+  suffix: Space Elevator, Docking
+  components:
+  - type: PriorityDock
+    tag: DockSpaceElevator
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsExternal ]
+
+- type: entity
+  parent: AirlockExternalGlassSpaceElevator
+  id: AirlockExternalGlassSpaceElevatorFilled
+  suffix: Space Elevator, Filled
+  components:
+  - type: GridFill
+    path: /Maps/_Emberfall/Shuttles/space_elevator.yml
+    addComponents:
+    - type: IFF
+      flags:
+      - HideLabel

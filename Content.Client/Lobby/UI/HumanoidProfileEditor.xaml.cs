@@ -218,7 +218,26 @@ namespace Content.Client.Lobby.UI
                 SetSpecies(_species[args.Id].ID);
                 UpdateHairPickers();
                 OnSkinColorOnValueChanged();
+                UpdateCustomSpeciesNameEdit(); // Emberfall
             };
+
+            #region Emberfall Custom Species
+
+            CustomSpeciesNameEdit.OnTextChanged += args =>
+            {
+                // Enforce length limit first
+                if (args.Text.Length > 16)
+                    CustomSpeciesNameEdit.Text = args.Text[..16];
+
+                // Filter to letters only
+                var newText = string.Concat(CustomSpeciesNameEdit.Text.Where(char.IsLetter));
+                if (newText != CustomSpeciesNameEdit.Text)
+                    CustomSpeciesNameEdit.Text = newText;
+
+                SetCustomSpeciesName(CustomSpeciesNameEdit.Text);
+            };
+
+            #endregion
 
             #region Skin
 
@@ -756,6 +775,7 @@ namespace Content.Client.Lobby.UI
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
+            UpdateCustomSpeciesNameEdit(); // Emberfall
 
             RefreshAntags();
             RefreshJobs();
@@ -1356,6 +1376,22 @@ namespace Content.Client.Lobby.UI
             }
 
         }
+
+        // Emberfall - Begin custom species stuff
+        private void SetCustomSpeciesName(string newName)
+        {
+            Profile = Profile?.WithCustomSpeciesName(newName);
+            SetDirty();
+        }
+
+        private void UpdateCustomSpeciesNameEdit()
+        {
+            if (Profile == null)
+                return;
+
+            CustomSpeciesNameEdit.Text = Profile.CustomSpeciesName;
+        }
+        // End Emberfall
 
         public void UpdateSpeciesGuidebookIcon()
         {

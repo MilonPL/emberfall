@@ -1,0 +1,7 @@
+- type: entity
+  abstract: true
+  id: BaseStationTerrain
+  components:
+  - type: PlanetsideTerrainSpawner
+    gridPath: /Maps/_Emberfall/Nonstations/mining_outpost.yml
+    terrain: GreatPlains

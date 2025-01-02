@@ -206,7 +206,7 @@ public sealed partial class GunSystem : SharedGunSystem
                     {
                         var hitEntity = lastHit.Value;
                         if (hitscan.StaminaDamage > 0f)
-                            _stamina.TakeStaminaDamage(hitEntity, hitscan.StaminaDamage, source: user);
+                            _stamina.TakeProjectileStaminaDamage(hitEntity, hitscan.StaminaDamage, source: user); // Emberfall - Cope with hitscan not being an entity
 
                         var dmg = hitscan.Damage;
 

@@ -1,0 +1,139 @@
+- type: decal
+  id: sclogo1
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo1
+
+- type: decal
+  id: sclogo2
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo2
+
+- type: decal
+  id: sclogo3
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo3
+
+- type: decal
+  id: sclogo4
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo4
+
+- type: decal
+  id: sclogo5
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo5
+
+- type: decal
+  id: sclogo6
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo6
+
+- type: decal
+  id: sclogo7
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo7
+
+- type: decal
+  id: sclogo8
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo8
+
+- type: decal
+  id: sclogo9
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo9
+
+- type: decal
+  id: sclogo10
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo10
+
+- type: decal
+  id: sclogo11
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo11
+
+- type: decal
+  id: sclogo12
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo12
+
+- type: decal
+  id: sclogo13
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo13
+
+- type: decal
+  id: sclogo14
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo14
+
+- type: decal
+  id: sclogo15
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo15
+
+- type: decal
+  id: sclogo16
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo16
+
+- type: decal
+  id: sclogo17
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo17
+
+- type: decal
+  id: sclogo18
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo18
+
+- type: decal
+  id: sclogo19
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo19
+
+- type: decal
+  id: sclogo20
+  tags: ["station"]
+  sprite:
+    sprite: _Emberfall/Decals/sclogo.rsi
+    state: sclogo20

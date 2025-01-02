@@ -1,16 +1,39 @@
-﻿"Changes: Sprites":
+﻿"Changes: C#":
 - changed-files:
-  - any-glob-to-any-file: '**/*.rsi/*.png'
+  - any-glob-to-any-file: "**/*.cs"
+
+"Changes: Documentation":
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.xml"
+    - "**/*.md"
+
+"Changes: Localization":
+- changed-files:
+  - any-glob-to-any-file:
+    - 'Resources/Locale/**/*.ftl'
 
 "Changes: Map":
 - changed-files:
   - any-glob-to-any-file:
-    - 'Resources/Maps/**/*.yml'
-    - 'Resources/Prototypes/Maps/**/*.yml'
+    - "Resources/Maps/**/*.yml"
+    - "Resources/Prototypes/Maps/**/*.yml"
+
+"Changes: Sprite":
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.rsi/*.png"
+    - "**/*.rsi/*.json"
 
 "Changes: UI":
 - changed-files:
-  - any-glob-to-any-file: '**/*.xaml*'
+  - any-glob-to-any-file:
+    - "**/*.xaml*"
+
+"Changes: YML":
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.yml"
 
 "Changes: Shaders":
 - changed-files:
@@ -19,8 +42,3 @@
 "Changes: Audio":
 - changed-files:
   - any-glob-to-any-file: '**/*.ogg'
-
-"Changes: No C#":
-- changed-files:
-  # Equiv to any-glob-to-all as long as this has one matcher. If ALL changed files are not C# files, then apply label.
-  - all-globs-to-all-files: "!**/*.cs"

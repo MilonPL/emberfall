@@ -49,6 +49,8 @@ namespace Content.Server.Database
                 .Include(p => p.Profiles).ThenInclude(h => h.Antags)
                 .Include(p => p.Profiles).ThenInclude(h => h.Traits)
                 .Include(p => p.Profiles)
+                    .ThenInclude(h => h.EmberfallProfile)
+                .Include(p => p.Profiles)
                     .ThenInclude(h => h.Loadouts)
                     .ThenInclude(l => l.Groups)
                     .ThenInclude(group => group.Loadouts)
@@ -95,6 +97,7 @@ namespace Content.Server.Database
             }
 
             var oldProfile = db.DbContext.Profile
+                .Include(p => p.EmberfallProfile)
                 .Include(p => p.Preference)
                 .Where(p => p.Preference.UserId == userId.UserId)
                 .Include(p => p.Jobs)
@@ -243,6 +246,7 @@ namespace Content.Server.Database
                 profile.CharacterName,
                 profile.FlavorText,
                 profile.Species,
+                profile.EmberfallProfile?.CustomSpeciesName ?? "",
                 profile.Age,
                 sex,
                 gender,
@@ -292,6 +296,9 @@ namespace Content.Server.Database
             profile.Markings = markings;
             profile.Slot = slot;
             profile.PreferenceUnavailable = (DbPreferenceUnavailableMode) humanoid.PreferenceUnavailable;
+
+            profile.EmberfallProfile ??= new EmberfallModel.EmberfallProfile();
+            profile.EmberfallProfile.CustomSpeciesName = humanoid.CustomSpeciesName;
 
             profile.Jobs.Clear();
             profile.Jobs.AddRange(

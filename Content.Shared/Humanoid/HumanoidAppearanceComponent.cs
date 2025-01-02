@@ -47,6 +47,12 @@ public sealed partial class HumanoidAppearanceComponent : Component
     public ProtoId<SpeciesPrototype> Species { get; set; }
 
     /// <summary>
+    /// Emberfall: Custom name override set from the editor.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public string? CustomSpeciesName;
+
+    /// <summary>
     ///     The initial profile and base layers to apply to this humanoid.
     /// </summary>
     [DataField]
