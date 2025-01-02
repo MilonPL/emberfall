@@ -46,6 +46,7 @@
   - TowelColorSilver
   - TowelColorWhite
   - TowelColorYellow
+  - DogTags # Emberfall
 
 - type: loadoutGroup
   id: Glasses
