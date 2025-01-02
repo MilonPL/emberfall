@@ -28,7 +28,7 @@ public sealed class EngravableSystem : SharedEngravableSystem
             return;
 
         // We need an actor to give the verb.
-        if (!EntityManager.TryGetComponent(args.User, out ActorComponent? actor))
+        if (!TryComp<ActorComponent>(args.User, out var actor))
             return;
 
         // Make sure ghosts can't engrave stuff.
