@@ -176,9 +176,65 @@ ent-SignHead =
 ent-SignZomlab =
     .desc = The final remains of a shut-down research project that aimed to harness the powers of Romerol. I wonder how that went...
 
-ent-LockerSteel
+ent-LockerSteel =
     .desc = A standard-issue Solus Concord storage unit.
 
-ent-ClosetSteelBase
+ent-ClosetSteelBase =
     .desc = A standard-issue Solus Concord storage unit.
 
+ent-BoxAgrichem = SC "AgriChem Is Fun" kit
+
+ent-CrateArmoryPistols =
+    .desc = Containts two Mk58 pistols with four mags. Requires Armory access to open.
+
+ent-CrateEngineeringElectricalSupplies=
+    .desc = SC is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+
+ent-CrateFunPlushie =
+    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to SC.
+
+ent-CrateFunLizardPlushieBulk =
+    .desc = A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to SC.
+
+ent-PaperAgrichemManual = SC "AgriChem Is Fun" manual
+
+ent-ClothingHeadHelmetHardsuitSecurityRed =
+    .desc = Security hardsuit helmet with the latest top secret SC-HUD software. Belongs to the HoS.
+
+ent-ClothingMaskGasDeathSquad =
+    .desc = A unique gas mask for the SC's most elite squad.
+
+ent-ClothingNeckLawyerbadge =
+    .desc = A badge to show that the owner is a 'legitimate' lawyer who passed the SC bar exam required to practice law.
+
+ent-NTDefaultCircuitBoard = law board (SC Default)
+    .desc = An electronics board containing the SC Default lawset.
+
+ent-CigPackMixedMedical =
+    .desc = Dan worked with SC chemistry to dispose of excess chemicals, ENJOY.
+
+ent-CigPackMixed =
+    .desc = Dan worked with SC chemistry to dispose of excess chemicals, ENJOY.
+
+ent-CigPackMixedNasty =
+    .desc = Dan worked with SC chemistry to dispose of excess chemicals, ENJOY.
+
+ent-SyndieHandyFlag =
+    .desc = For truly rebellious patriots. Death to SC!
+
+ent-PenCentcom =
+    .desc = In an attempt to keep up with the "power" of the syndicate bureaucracy, SC made a replica of cyber pen, in their corporate style.
+
+ent-BannerSyndicate =
+    .desc = A banner from which, according to the syndicate, you should feel hatred for SC
+
+ent-BlockGameArcade = SC block game
+
+ent-VendingMachineSustenance =
+    .desc = A vending machine which vends food, as required by section 47-C of the SC's Prisoner Ethical Treatment Agreement.
+
+ent-SyndieFlag =
+    .desc = Smells bloody. Death to SC!
+
+ent-
+    .desc =
