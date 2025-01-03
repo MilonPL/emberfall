@@ -75,3 +75,69 @@ ent-WeaponSubMachineGunWt550 =
 
 ent-WeaponSniperMosin =
     .desc = A weapon for hunting, or endless trench warfare. This bolt-action rifle has stood the test of time and still serves faithfully.
+
+ent-WeaponLaserSvalinn =
+    .desc = A practical laser pistol found in security armories across the sector. Simple, reliable, and cheap enough that accounting won't complain when you requisition a replacement.
+
+ent-WeaponLaserGun =
+    .desc = A classic design that refuses to go out of style. What it lacks in modern amenities it makes up for with proven reliability and a distinctive retro aesthetic that some officers swear improves accuracy.
+
+ent-WeaponMakeshiftLaser =
+    .desc = A jury-rigged laser pistol that's more likely to give the wielder anxiety than the target. The manual consists of a sticky note reading 'Point away from face'.
+
+ent-WeaponTeslaGun =
+    .desc = A specialized weapon that harnesses electromagnetic forces. Each shot creates an impressive light show, though most targets are too busy being electrocuted to appreciate it.
+
+ent-WeaponLaserCarbinePractice =
+    .desc = Security cadets' first introduction to energy weapons. The power output is limited to prevent training accidents, much to the relief of the medical staff.
+
+ent-WeaponLaserCarbine =
+    .desc = Standard-issue SC security laser rifle. Combines respectable stopping power with a price point that keeps the bean counters happy. Comes with a 'warranty void if exposed to plasma' sticker.
+
+ent-WeaponPulsePistol =
+    .desc = SC's premier tactical sidearm. Each shot delivers a concentrated burst of energy that will ruin anyone's day.
+
+ent-WeaponPulseCarbine =
+    .desc = High-end SC energy weapon that makes its presence known. Features select-fire capability and enough punch to make even hardened operatives think twice.
+
+ent-WeaponPulseRifle =
+    .desc = The gold standard in energy weapon technology. Each shot carries enough power to leave an impression - both on the target and in the after-action report.
+
+ent-WeaponLaserCannon =
+    .desc = When subtlety isn't an option and property damage is acceptable collateral. The power cell housing comes with built-in cooling fins, which should tell you everything you need to know.
+
+ent-WeaponParticleDecelerator =
+    .desc = A specialized containment weapon for dealing with exotic particle anomalies. The user manual heavily emphasizes keeping your distance from the target, which is always a good sign.
+
+ent-WeaponXrayCannon =
+    .desc = Cutting-edge weaponry that utilizes penetrating radiation. The 'Experimental' warning label has been crossed out and replaced with 'Mostly Stable', which is progress.
+
+ent-WeaponDisablerPractice =
+    .desc = Training variant of the standard disabler. Perfect for teaching cadets about weapon handling without risking any expensive lawsuits.
+
+ent-WeaponDisabler =
+    .desc = Standard-issue compliance device that excels at de-escalating situations. Favored by security officers who prefer their suspects conscious enough to sign confessions.
+
+ent-WeaponDisablerSMG =
+    .desc = High-rate compliance device for when one target isn't going down fast enough. Delivers enough non-lethal rounds to exhaust even the most enthusiastic resistance.
+
+ent-WeaponTaser =
+    .desc = Classic security sidearm that trades ammunition capacity for stopping power. Nothing says 'please comply' quite like 50,000 volts of persuasion.
+
+ent-WeaponAntiqueLaser =
+    .desc = A masterwork of pre-corporate craftsmanship. The self-charging mechanism is a testament to lost technology, and the chrome finish ensures you look good while using it.
+
+ent-WeaponAdvancedLaser =
+    .desc = SC's latest in personal defense technology. Features a miniaturized fusion cell that ensures you'll never run out of shots - assuming you live long enough to fire them all.
+
+ent-WeaponPistolCHIMP =
+    .desc = A marvel of anomalous weapons research that packs quite a punch for its size. The instruction manual spends more pages on physics disclaimers than actual instructions.
+
+ent-WeaponPistolCHIMPUpgraded =
+    .desc = An enhanced version of the standard CHIMP that demonstrates why some experiments should have remained theoretical. Each shot bends reality a little more than strictly necessary.
+
+ent-WeaponBehonkerLaser =
+    .desc = A grotesque but effective weapon fashioned from a behonker's eye. Every shot is accompanied by a faint honking sound that scientists swear is just psychosomatic.
+
+ent-WeaponEnergyShotgun =
+    .desc = A high-end energy shotgun. Features multiple firing modes for when you can't decide between 'stop' and 'stop existing'.
