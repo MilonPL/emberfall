@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseCartridgeLightRifle
+  id: CartridgeLightRifleTracer
+  name: cartridge (5.56x45mm tracer)
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLightRifleTracer
+
+- type: entity
+  parent: BaseMagazinePistolSubMachineGun
+  id: MagazinePistolSubMachineGunTracer
+  name: SMG magazine (5.56x45mm tracer)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleTracer
+  - type: Sprite
+    layers:
+    - state: red
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-1
+      map: [ "enum.GunVisualLayers.Mag" ]

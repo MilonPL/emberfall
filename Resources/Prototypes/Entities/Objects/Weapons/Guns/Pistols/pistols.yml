@@ -26,6 +26,7 @@
     - suitStorage
     - Belt
   - type: Gun
+    projectileSpeed: 35 # Emberfall
     fireRate: 6
     selectedMode: SemiAuto
     availableModes:

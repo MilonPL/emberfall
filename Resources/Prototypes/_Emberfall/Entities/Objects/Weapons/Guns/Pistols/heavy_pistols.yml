@@ -1,0 +1,47 @@
+- type: entity
+  abstract: true
+  parent: BaseWeaponPistol
+  id: BaseWeaponHeavyPistol
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineHeavyPistol
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineHeavyPistol
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeHeavyPistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeHeavyPistol
+
+- type: entity
+  parent: BaseWeaponHeavyPistol
+  id: WeaponPistolM25
+  name: M25 Tactical
+  description: A chunky pistol chambered in 10mm Auto. Makes up for its bulk with impressive stopping power.
+  components:
+  - type: Gun
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/m25.rsi
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/m25.rsi
+
+- type: entity
+  parent: BaseWeaponHeavyPistol
+  id: WeaponPistolPollock
+  name: Pollock
+  description: Mass-produced mercenary sidearm. No serial numbers, no questions asked. Favored by those who need reliability more than papers of authenticity.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/pollock.rsi
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Pistols/pollock.rsi

@@ -34,6 +34,10 @@
   - MagazineBoxMagnumIncendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
+  # Begin Emberfall additions
+  - MagazineHeavyPistolIncendiary
+  - MagazineHeavyPistolSubMachineGunIncendiary
+  - MagazineBoxHeavyPistolIncendiary
 
 - type: technology
   id: WeaponizedLaserManipulation
@@ -81,6 +85,10 @@
   - MagazineBoxLightRifleUranium
   - MagazineBoxRifleUranium
   - BoxShotgunUranium
+  # Begin Emberfall additions
+  - MagazineHeavyPistolUranium
+  - MagazineHeavyPistolSubMachineGunUranium
+  - MagazineBoxHeavyPistolUranium
 
 - type: technology
   id: AdvancedRiotControl

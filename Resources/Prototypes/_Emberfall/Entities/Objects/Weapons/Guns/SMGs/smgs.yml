@@ -1,0 +1,37 @@
+- type: entity
+  parent: WeaponSubMachineGunVector
+  id: WeaponSubMachineGunVectorEmberfall
+  name: Vector
+  suffix: Emberfall
+  description: SC's licensed copy of the classic Vector design. Advanced recoil system makes it surprisingly controllable despite the powerful cartridge.
+  components:
+  - type: Gun
+    projectileSpeed: 40
+    fireRate: 8
+    angleIncrease: 1.8
+    minAngle: 3
+    maxAngle: 12
+    selectedMode: FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+    availableModes:
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineHeavyPistolSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineHeavyPistolSubMachineGun
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeHeavyPistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeHeavyPistol

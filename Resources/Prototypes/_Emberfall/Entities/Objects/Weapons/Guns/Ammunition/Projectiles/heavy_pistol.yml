@@ -1,0 +1,51 @@
+- type: entity
+  parent: BaseBullet
+  id: BulletHeavyPistol
+  name: bullet (10mm auto)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 28
+
+- type: entity
+  id: BulletHeavyPistolPractice
+  name: bullet (10mm auto practice)
+  parent: BaseBulletPractice
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+
+- type: entity
+  parent: BaseBulletIncendiary
+  id: BulletHeavyPistolIncendiary
+  name: bullet (10mm auto incendiary)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+        Heat: 25
+
+- type: entity
+  parent: BaseBulletUranium
+  id: BulletHeavyPistolUranium
+  name: bullet (10mm auto uranium)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 13
+        Piercing: 15
+
+- type: entity
+  parent: [ BaseBulletTracerGreen, BulletHeavyPistol ]
+  id: BulletHeavyPistolTracer
+  name: bullet (10mm auto tracer)
+  categories: [ HideSpawnMenu ]

@@ -1,2 +1,11 @@
 - type: Tag
+  id: CartridgeHeavyPistol
+
+- type: Tag
   id: DockSpaceElevator
+
+- type: Tag
+  id: MagazineHeavyPistol
+
+- type: Tag
+  id: MagazineHeavyPistolSubMachineGun

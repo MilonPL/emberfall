@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 34 # Emberfall - was 19
 
 - type: entity
   id: BulletLightRiflePractice
@@ -30,7 +30,7 @@
     damage:
       types:
         Blunt: 3
-        Heat: 16
+        Heat: 31 # Emberfall - was 16
 
 - type: entity
   id: BulletLightRifleUranium
@@ -41,5 +41,5 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 9
+        Radiation: 24 # Emberfall - was 9
         Piercing: 10

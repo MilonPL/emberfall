@@ -1,0 +1,95 @@
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafeRifleVulcan
+  name: vulcan safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleVulcan
+      amount: 2
+    - id: MagazineRifle
+      amount: 4
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafeRifleTenebra
+  name: tenebra safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleTenebra
+      amount: 2
+    - id: MagazineRifle
+      amount: 4
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafeLightRifleLecter
+  name: lecter safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleLecterEmberfall
+      amount: 2
+    - id: MagazineLightRifle
+      amount: 4
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafeLightRifleM90
+  name: m-90 safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM90
+      amount: 2
+    - id: MagazineLightRifle
+      amount: 4
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafeSubMachineGunVector
+  name: vector safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunVectorEmberfall
+      amount: 2
+    - id: MagazineHeavyPistolSubMachineGun
+      amount: 4
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafePistolM23
+  name: m23 safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolM23
+      amount: 4
+    - id: MagazinePistol
+      amount: 8
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafePistolM25
+  name: m25 safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolM25
+      amount: 4
+    - id: MagazineHeavyPistol
+      amount: 8
+
+- type: entity
+  parent: [ GunSafeBaseSecure, BaseRestrictedContraband ]
+  id: GunSafePistolPollock
+  name: pollock safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolPollock
+      amount: 4
+    - id: MagazineHeavyPistol
+      amount: 8

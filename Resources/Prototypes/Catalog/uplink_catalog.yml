@@ -144,19 +144,19 @@
       tags:
       - NukeOpsUplink
 
-- type: listing
-  id: UplinkSniperBundle
-  name: uplink-sniper-bundle-name
-  description: uplink-sniper-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
-  productEntity: BriefcaseSyndieSniperBundleFilled
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 6
-  cost:
-    Telecrystal: 12
-  categories:
-  - UplinkWeaponry
+#- type: listing
+#  id: UplinkSniperBundle
+#  name: uplink-sniper-bundle-name
+#  description: uplink-sniper-bundle-desc
+#  icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
+#  productEntity: BriefcaseSyndieSniperBundleFilled
+#  discountCategory: usualDiscounts
+#  discountDownTo:
+#    Telecrystal: 6
+#  cost:
+#    Telecrystal: 12
+#  categories:
+#  - UplinkWeaponry
 
 - type: listing
   id: UplinkC20RBundle
@@ -478,8 +478,8 @@
   id: UplinkMagazinePistolSubMachineGun
   name: uplink-pistol-magazine-c20r-name
   description: uplink-pistol-magazine-c20r-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
-  productEntity: MagazinePistolSubMachineGun
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi, state: red-icon } # Emberfall
+  productEntity: MagazineHeavyPistolSubMachineGun # Emberfall
   cost:
     Telecrystal: 2
   categories:
@@ -521,15 +521,15 @@
   - UplinkAmmo
 
 # for the hristov
-- type: listing
-  id: UplinkHristovAmmo
-  name: uplink-sniper-ammo-name
-  description: uplink-sniper-ammo-desc
-  productEntity: MagazineBoxAntiMateriel
-  cost:
-    Telecrystal: 2
-  categories:
-  - UplinkAmmo
+#- type: listing
+#  id: UplinkHristovAmmo
+#  name: uplink-sniper-ammo-name
+#  description: uplink-sniper-ammo-desc
+#  productEntity: MagazineBoxAntiMateriel
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - UplinkAmmo
 
 - type: listing
   id: UplinkAmmoBundle

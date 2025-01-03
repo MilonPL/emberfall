@@ -121,6 +121,7 @@
   name: "Vector magazine (.45 magnum any)"
   suffix: empty
   parent: BaseMagazineMagnumSubMachineGun
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -133,6 +134,7 @@
   id: MagazineMagnumSubMachineGun
   name: "Vector magazine (.45 magnum)"
   parent: BaseMagazineMagnumSubMachineGun
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -147,6 +149,7 @@
   id: MagazineMagnumSubMachineGunPractice
   name: "Vector magazine (.45 magnum practice)"
   parent: BaseMagazineMagnumSubMachineGun
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -161,6 +164,7 @@
   id: MagazineMagnumSubMachineGunUranium
   name: "Vector magazine (.45 magnum uranium)"
   parent: BaseMagazineMagnumSubMachineGun
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -175,6 +179,7 @@
   id: MagazineMagnumSubMachineGunPiercing
   name: "Vector magazine (.45 magnum armor-piercing)"
   parent: BaseMagazineMagnumSubMachineGun
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP

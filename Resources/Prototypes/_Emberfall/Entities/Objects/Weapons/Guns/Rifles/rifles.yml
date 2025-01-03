@@ -1,0 +1,232 @@
+- type: entity
+  parent: [ BaseWeaponRifle, BaseGunWieldable ]
+  id: WeaponRifleVulcan
+  name: SC-84 Vulcan
+  description: SC's attempt at a full-power battle rifle. Excellent for long-range engagements and beloved by security veterans who value stopping power over their shoulder joints.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/vulcan.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/vulcan.rsi
+  - type: GunRequiresWield
+  - type: GunWieldBonus
+    minAngle: -19.5 # 1.5 deg min
+    maxAngle: -23.5 # 8.5 deg max
+  - type: Gun
+    projectileSpeed: 45
+    fireRate: 5.5
+    angleIncrease: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeRifle
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: [ BaseWeaponRifle, BaseGunWieldable ]
+  id: WeaponRifleTenebra
+  name: Tenebra
+  description: A robust battle rifle, similar in performance to SC's Vulcan, but with smoother action and better ergonomics. The lack of corporate branding and serial numbers raises questions CentCom prefers not to answer.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/tenebra.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/tenebra.rsi
+  - type: GunRequiresWield
+  - type: GunWieldBonus
+    minAngle: -20 # 1 deg min
+    maxAngle: -25 # 7 deg max
+  - type: Gun
+    projectileSpeed: 45
+    fireRate: 4.5
+    angleIncrease: 1.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeRifle
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: WeaponRifleLecter
+  id: WeaponRifleLecterEmberfall
+  name: AR-19 Lecter
+  description: Standard-issue SC assault rifle that perfectly embodies corporate cost-cutting. The manual explicitly states 'Working as intended' in response to every known issue.
+  components:
+  - type: GunWieldBonus
+    minAngle: -19 # 2 deg min
+    maxAngle: -26 # 6 deg max
+  - type: Gun
+    projectileSpeed: 50
+    fireRate: 6.5
+    angleIncrease: 1
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeLightRifle
+
+- type: entity
+  parent: [ BaseWeaponRifle, BaseGunWieldable ]
+  id: WeaponRifleM90
+  name: M-90
+  description: An old and mass produced bullpup rifle model. More compact than the Lecter, with similar performance.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/carbinenogl.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/carbinenogl.rsi
+  - type: GunWieldBonus
+    minAngle: -18.5 # 2.5 deg min
+    maxAngle: -25 # 7 deg max
+  - type: Gun
+    projectileSpeed: 50
+    fireRate: 6.5
+    angleIncrease: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeLightRifle
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: [ BaseWeaponRifle, BaseGunWieldable ]
+  id: WeaponRifleNightshade
+  name: AS-9 Nightshade
+  description: A sleek, non-standard rifle occasionally glimpsed in the hands of SC's more discrete specialists. The lack of any visible manufacturer markings and some suspiciously advanced features suggest a story that several departments would prefer remained untold.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/nightshade.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _Emberfall/Objects/Weapons/Guns/Rifles/nightshade.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+  - type: Gun
+    projectileSpeed: 50
+    fireRate: 6.5
+    soundGunshot:
+      path: /Audio/_Emberfall/Weapons/Guns/Gunshots/nightshade.ogg
+      params:
+        volume: -4
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineCaselessRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineCaselessRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeCaselessRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeCaselessRifle
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

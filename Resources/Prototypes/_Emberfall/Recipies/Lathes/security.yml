@@ -1,0 +1,201 @@
+# 10mm auto magazines
+- type: latheRecipe
+  parent: BaseEmptyAmmoRecipe
+  id: MagazineHeavyPistolEmpty
+  result: MagazineHeavyPistolEmpty
+  materials:
+    Steel: 30
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistol
+  result: MagazineHeavyPistol
+  materials:
+    Steel: 175
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolPractice
+  result: MagazineHeavyPistolPractice
+  materials:
+    Steel: 105
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolUranium
+  result: MagazineHeavyPistolUranium
+  materials:
+    Steel: 30
+    Plastic: 80
+    Uranium: 140
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolIncendiary
+  result: MagazineHeavyPistolIncendiary
+  materials:
+    Steel: 30
+    Plastic: 145
+
+# 10mm auto SMG magazines
+- type: latheRecipe
+  parent: BaseEmptyAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunEmpty
+  result: MagazineHeavyPistolSubMachineGunEmpty
+  materials:
+    Steel: 40
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGun
+  result: MagazineHeavyPistolSubMachineGun
+  materials:
+    Steel: 375
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunPractice
+  result: MagazineHeavyPistolSubMachineGunPractice
+  materials:
+    Steel: 225
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunUranium
+  result: MagazineHeavyPistolSubMachineGunUranium
+  materials:
+    Steel: 40
+    Plastic: 220
+    Uranium: 320
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunIncendiary
+  result: MagazineHeavyPistolSubMachineGunIncendiary
+  materials:
+    Steel: 40
+    Plastic: 335
+
+# 10mm auto boxes
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistol
+  result: MagazineBoxHeavyPistol
+  materials:
+    Steel: 700
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistolPractice
+  result: MagazineBoxHeavyPistolPractice
+  materials:
+    Steel: 420
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistolIncendiary
+  result: MagazineBoxHeavyPistolIncendiary
+  materials:
+    Plastic: 700
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistolUranium
+  result: MagazineBoxHeavyPistolUranium
+  materials:
+    Plastic: 350
+    Uranium: 700
+
+# Tracers: magazines
+
+# 9x19mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolTracer
+  result: MagazinePistolTracer
+  materials:
+    Steel: 125
+    Plastic: 50
+
+# 10mm auto
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolTracer
+  result: MagazineHeavyPistolTracer
+  materials:
+    Steel: 150
+    Plastic: 60
+
+# 10mm SMG
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineHeavyPistolSubMachineGunTracer
+  result: MagazineHeavyPistolSubMachineGunTracer
+  materials:
+    Steel: 315
+    Plastic: 120
+
+# 5.56x45mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineLightRifleTracer
+  result: MagazineLightRifleTracer
+  materials:
+    Steel: 485
+    Plastic: 160
+
+# 5.56x45mm SMG
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSubMachineGunTracer
+  result: MagazinePistolSubMachineGunTracer
+  materials:
+    Steel: 260
+    Plastic: 80
+
+# 7.62x51mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineRifleTracer
+  result: MagazineRifleTracer
+  materials:
+    Steel: 405
+    Plastic: 140
+
+# Tracers: boxes
+
+# 9x19mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxPistolTracer
+  result: MagazineBoxPistolTracer
+  materials:
+    Steel: 500
+    Plastic: 200
+
+# 10mm auto
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxHeavyPistolTracer
+  result: MagazineBoxHeavyPistolTracer
+  materials:
+    Steel: 600
+    Plastic: 240
+
+# 5.56x45mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxLightRifleTracer
+  result: MagazineBoxLightRifleTracer
+  materials:
+    Steel: 780
+    Plastic: 320
+
+# 7.62x51mm
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxRifleTracer
+  result: MagazineBoxRifleTracer
+  materials:
+    Steel: 650
+    Plastic: 280

@@ -1,0 +1,80 @@
+- type: entity
+  abstract: true
+  parent: [ BaseCartridge, BaseRestrictedContraband ]
+  id: BaseCartridgeHeavyPistol
+  name: cartridge (10mm auto)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeHeavyPistol
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistol
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: CartridgeHeavyPistol
+  name: cartridge (10mm auto)
+  parent: BaseCartridgeHeavyPistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistol
+
+- type: entity
+  id: CartridgeHeavyPistolPractice
+  name: cartridge (10mm auto practice)
+  parent: BaseCartridgeHeavyPistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolPractice
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#dbdbdb"
+
+- type: entity
+  id: CartridgeHeavyPistolIncendiary
+  name: cartridge (10mm auto incendiary)
+  parent: BaseCartridgeHeavyPistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#ff6e52"
+
+- type: entity
+  id: CartridgeHeavyPistolUranium
+  name: cartridge (10mm auto uranium)
+  parent: BaseCartridgeHeavyPistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.AmmoVisualLayers.Base" ]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#65fe08"
+
+- type: entity
+  parent: BaseCartridgeHeavyPistol
+  id: CartridgeHeavyPistolTracer
+  name: cartridge (10mm auto tracer)
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolTracer

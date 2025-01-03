@@ -226,6 +226,13 @@
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
+      # Emberfall additions
+      - MagazineBoxHeavyPistol
+      - MagazineHeavyPistol
+      - MagazineHeavyPistolEmpty
+      - MagazineHeavyPistolSubMachineGun
+      - MagazineHeavyPistolSubMachineGunEmpty
+      # End Emberfall
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -392,6 +399,24 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      # Emberfall additions
+      - MagazinePistolTracer
+      - MagazineLightRifleTracer
+      - MagazinePistolSubMachineGunTracer
+      - MagazineRifleTracer
+      - MagazineHeavyPistolSubMachineGunUranium
+      - MagazineHeavyPistolSubMachineGunIncendiary
+      - MagazineHeavyPistolSubMachineGunTracer
+      - MagazineHeavyPistolTracer
+      - MagazineHeavyPistolIncendiary
+      - MagazineHeavyPistolUranium
+      - MagazineBoxHeavyPistolIncendiary
+      - MagazineBoxHeavyPistolUranium
+      - MagazineBoxHeavyPistolTracer
+      - MagazineBoxLightRifleTracer
+      - MagazineBoxPistolTracer
+      - MagazineBoxRifleTracer
+      # End Emberfall
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -732,6 +757,16 @@
       - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
+      # Emberfall additions
+      - MagazineHeavyPistolSubMachineGun
+      - MagazineHeavyPistolSubMachineGunEmpty
+      - MagazineHeavyPistolSubMachineGunPractice
+      - MagazineHeavyPistol
+      - MagazineHeavyPistolEmpty
+      - MagazineHeavyPistolPractice
+      - MagazineBoxHeavyPistol
+      - MagazineBoxHeavyPistolPractice
+      # End Emberfall
     dynamicRecipes:
       - BoxBeanbag
       - BoxShotgunIncendiary
@@ -783,6 +818,23 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      # Emberfall additions
+      - MagazinePistolTracer
+      - MagazineLightRifleTracer
+      - MagazinePistolSubMachineGunTracer
+      - MagazineRifleTracer
+      - MagazineHeavyPistolIncendiary
+      - MagazineHeavyPistolUranium
+      - MagazineHeavyPistolSubMachineGunUranium
+      - MagazineHeavyPistolSubMachineGunIncendiary
+      - MagazineHeavyPistolSubMachineGunTracer
+      - MagazineHeavyPistolTracer
+      - MagazineBoxHeavyPistolIncendiary
+      - MagazineBoxHeavyPistolUranium
+      - MagazineBoxLightRifleTracer
+      - MagazineBoxPistolTracer
+      - MagazineBoxRifleTracer
+      # End Emberfall
   - type: MaterialStorage
     whitelist:
       tags:

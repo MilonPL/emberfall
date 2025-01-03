@@ -46,11 +46,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        startingItem: CartridgeLightRifle # Emberfall
         priority: 1
         whitelist:
           tags:
-            - CartridgePistol
+            - CartridgeLightRifle # Emberfall
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -72,6 +72,10 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
+    projectileSpeed: 37.5 # Emberfall
+    angleIncrease: 1 # Emberfall
+    minAngle: 4 # Emberfall
+    maxAngle: 22 # Emberfall
     fireRate: 10
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -79,6 +83,25 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: ItemSlots # Emberfall
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolHighCapacity
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazinePistolHighCapacity
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
   - type: Appearance
 
 - type: entity
@@ -99,9 +122,11 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -16
+    minAngle: -18 # Emberfall - 3 deg min
+    maxAngle: -18 # Emberfall - 14 deg max
   - type: Gun
+    projectileSpeed: 37.5 # Emberfall
+    fireRate: 8 # Emberfall
     minAngle: 21
     maxAngle: 32
     shotsPerBurst: 5
@@ -113,6 +138,25 @@
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
   - type: ChamberMagazineAmmoProvider
     autoEject: true
+  - type: ItemSlots # Emberfall
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineHeavyPistolSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineHeavyPistolSubMachineGun
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeHeavyPistol
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeHeavyPistol
   - type: MagazineVisuals
     magState: mag
     steps: 6
@@ -140,6 +184,7 @@
       minAngle: -19
       maxAngle: -16
     - type: Gun
+      projectileSpeed: 40 # Emberfall
       minAngle: 21
       maxAngle: 32
       fireRate: 12
@@ -165,11 +210,11 @@
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
           name: Chamber
-          startingItem: CartridgePistol
+          startingItem: CartridgeLightRifle # Emberfall
           priority: 1
           whitelist:
             tags:
-              - CartridgePistol
+              - CartridgeLightRifle # Emberfall
     - type: MagazineVisuals
       magState: mag
       steps: 1
@@ -181,6 +226,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
+  categories: [ HideSpawnMenu ] # Emberfall
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
@@ -248,10 +294,11 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 5.5
-    minAngle: 1
-    maxAngle: 6
-    angleIncrease: 1.5
+    projectileSpeed: 37.5 # Emberfall
+    fireRate: 6.5 # Emberfall
+    minAngle: 2 # Emberfall
+    maxAngle: 8 # Emberfall
+    angleIncrease: 1 # Emberfall
     angleDecay: 6
     selectedMode: FullAuto
     shotsPerBurst: 5

@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 35
+        Piercing: 45 # Emberfall - was 35
 
 - type: entity
   id: BulletMagnumPractice
@@ -30,7 +30,7 @@
     damage:
       types:
         Blunt: 3
-        Heat: 32
+        Heat: 42 # Emberfall - was 32
 
 - type: entity
   id: BulletMagnumAP
@@ -53,5 +53,5 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 15
+        Radiation: 25 # Emberfall - was 15
         Piercing: 20

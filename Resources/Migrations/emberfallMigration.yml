@@ -14,3 +14,9 @@ SignNanotrasen2: null
 SignNanotrasen3: null
 SignNanotrasen4: null
 SignNanotrasen5: null
+
+# 12-30-2024
+WeaponRifleLecter: WeaponRifleLecterEmberfall
+WeaponRifleM90GrenadeLauncher: WeaponRifleM90
+WeaponSubMachineGunVector: WeaponSubMachineGunVectorEmberfall
+GunSafeLecter: GunSafeLightRifleLecter

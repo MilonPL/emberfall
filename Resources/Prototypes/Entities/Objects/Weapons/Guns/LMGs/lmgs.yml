@@ -83,6 +83,9 @@
     steps: 4
     zeroVisible: true
   - type: Appearance
+  - type: Gun # Emberfall
+    projectileSpeed: 45
+    angleIncrease: 3
 
 - type: entity
   name: L6C ROW

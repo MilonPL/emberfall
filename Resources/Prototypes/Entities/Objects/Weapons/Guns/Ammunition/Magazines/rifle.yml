@@ -15,7 +15,7 @@
     whitelist:
       tags:
         - CartridgeRifle
-    capacity: 25
+    capacity: 20 # Emberfall
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

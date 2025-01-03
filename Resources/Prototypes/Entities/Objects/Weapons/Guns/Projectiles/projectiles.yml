@@ -107,7 +107,7 @@
 - type: entity
   id: BaseBulletIncendiary
   name: base bullet incendiary
-  parent: BaseBullet
+  parent: [ BaseBullet, BaseBulletTracerYellow ] # Emberfall
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -1052,3 +1052,36 @@
     proto: BulletDisablerSmg
     count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
     spread: 9
+
+# Emberfall projectiles: yes they have to be here
+
+# Tracers
+- type: entity
+  abstract: true
+  id: BaseBulletTracer
+  components:
+  - type: Tracer
+  - type: PointLight
+    radius: 1.3
+    energy: 2
+    color: "#ff0000"
+
+- type: entity
+  abstract: true
+  parent: BaseBulletTracer
+  id: BaseBulletTracerYellow
+  components:
+  - type: Tracer
+    color: "#ffff00"
+  - type: PointLight
+    color: "#ffff00"
+
+- type: entity
+  abstract: true
+  parent: BaseBulletTracer
+  id: BaseBulletTracerGreen
+  components:
+  - type: Tracer
+    color: "#008000"
+  - type: PointLight
+    color: "#008000"
