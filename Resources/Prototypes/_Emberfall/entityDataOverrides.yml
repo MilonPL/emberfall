@@ -1,59 +1,59 @@
-# File containing the name/description overrides for entities
-# Example usage:
-# - type: entityDataOverride
-#   id: BookSpaceEncyclopedia # Must match the entity prototype ID
-#   name: ancient space encyclopedia
-#   description: A weathered encyclopedia containing the collected knowledge of countless star-faring civilizations.
-
-- type: entityDataOverride
-  id: PosterContrabandMissingGloves
-  description: This poster references the uproar that followed Solus Concord's financial cuts toward insulated-glove purchases.
-
-- type: entityDataOverride
-  id: PosterContrabandHackingGuide
-  description: This poster details the internal workings of the common airlock. Sadly, it appears out of date.
-
-- type: entityDataOverride
-  id: PosterContrabandRIPBadger
-  description: This seditious poster references Solus Concord's genocide of a space station full of badgers.
-
-- type: entityDataOverride
-  id: PosterContrabandPower
-  description: A poster that positions the seat of power outside Solus Concord.
-
-- type: entityDataOverride
-  id: PosterContrabandRebelsUnite
-  description: A poster urging the viewer to rebel against Solus Concord.
-
-- type: entityDataOverride
-  id: PosterLegit50thAnniversaryVintageReprint
-  description: A reprint of a poster from 2305, commemorating the 50th Anniversary of Solus Manufacturing, a subsidiary of Solus Concord.
-
-- type: entityDataOverride
-  id: PosterLegitPDAAd
-  description: A poster advertising the latest PDA.
-
-- type: entityDataOverride
-  id: PosterLegitNoERP
-  description: This poster reminds the crew that Eroticism and Pornography are banned on Solus Concord bases.
-
-- type: entityDataOverride
-  id: PosterLegitThereIsNoGasGiant
-  description: Solus Concord has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
-
-- type: entityDataOverride
-  id: ClothingUniformJumpsuitNanotrasen
-  name: solus concord jumpsuit
-  description: A stately blue jumpsuit to represent Solus Concord.
-
-- type: entityDataOverride
-  id: ClothingUniformJumpsuitSecGrey
-  description: A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
-
-- type: entityDataOverride
-  id: ClothingUniformSecurityTrooper
-  description: A formal uniform issued to the Solus Concord Troopers, usually it comes with a car.
-
-- type: entityDataOverride
-  id: ClothingUniformJumpsuitWarden
-  description: A formal security suit for officers complete with SC belt buckle.
+## File containing the name/description overrides for entities
+## Example usage:
+## - type: entityDataOverride
+##   id: BookSpaceEncyclopedia # Must match the entity prototype ID
+##   name: ancient space encyclopedia
+##   description: A weathered encyclopedia containing the collected knowledge of countless star-faring civilizations.
+#
+#- type: entityDataOverride
+#  id: PosterContrabandMissingGloves
+#  description: This poster references the uproar that followed Solus Concord's financial cuts toward insulated-glove purchases.
+#
+#- type: entityDataOverride
+#  id: PosterContrabandHackingGuide
+#  description: This poster details the internal workings of the common airlock. Sadly, it appears out of date.
+#
+#- type: entityDataOverride
+#  id: PosterContrabandRIPBadger
+#  description: This seditious poster references Solus Concord's genocide of a space station full of badgers.
+#
+#- type: entityDataOverride
+#  id: PosterContrabandPower
+#  description: A poster that positions the seat of power outside Solus Concord.
+#
+#- type: entityDataOverride
+#  id: PosterContrabandRebelsUnite
+#  description: A poster urging the viewer to rebel against Solus Concord.
+#
+#- type: entityDataOverride
+#  id: PosterLegit50thAnniversaryVintageReprint
+#  description: A reprint of a poster from 2305, commemorating the 50th Anniversary of Solus Manufacturing, a subsidiary of Solus Concord.
+#
+#- type: entityDataOverride
+#  id: PosterLegitPDAAd
+#  description: A poster advertising the latest PDA.
+#
+#- type: entityDataOverride
+#  id: PosterLegitNoERP
+#  description: This poster reminds the crew that Eroticism and Pornography are banned on Solus Concord bases.
+#
+#- type: entityDataOverride
+#  id: PosterLegitThereIsNoGasGiant
+#  description: Solus Concord has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
+#
+#- type: entityDataOverride
+#  id: ClothingUniformJumpsuitNanotrasen
+#  name: solus concord jumpsuit
+#  description: A stately blue jumpsuit to represent Solus Concord.
+#
+#- type: entityDataOverride
+#  id: ClothingUniformJumpsuitSecGrey
+#  description: A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
+#
+#- type: entityDataOverride
+#  id: ClothingUniformSecurityTrooper
+#  description: A formal uniform issued to the Solus Concord Troopers, usually it comes with a car.
+#
+#- type: entityDataOverride
+#  id: ClothingUniformJumpsuitWarden
+#  description: A formal security suit for officers complete with SC belt buckle.

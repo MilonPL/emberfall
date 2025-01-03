@@ -100,6 +100,7 @@
   id: ClothingNeckCloakNanotrasen
   name: nanotrasen cloak
   description: A stately blue cloak to represent NanoTrasen.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
