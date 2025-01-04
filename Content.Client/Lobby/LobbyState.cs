@@ -210,7 +210,7 @@ namespace Content.Client.Lobby
                     ("songTitle", title),
                     ("songArtist", artist));
 
-                Lobby!.LobbySong.SetMarkup(markup);
+                Lobby!.LobbySong.SetMarkupPermissive(markup); // Emberfall
             }
         }
 
