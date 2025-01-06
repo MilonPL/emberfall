@@ -1,8 +1,8 @@
 - type: job
   id: Detective
-  name: job-name-detective
+  name: job-name-inspector # Emberfall: Detective -> Inspector
   description: job-description-detective
-  playTimeTracker: JobDetective
+  playTimeTracker: JobInspector # Emberfall: Detective -> Inspector
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security

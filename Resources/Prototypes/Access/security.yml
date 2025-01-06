@@ -16,7 +16,7 @@
 
 - type: accessLevel
   id: Detective
-  name: id-card-access-level-detective
+  name: id-card-access-level-inspector # Emberfall: Detective -> Inspector
 
 - type: accessGroup
   id: Security

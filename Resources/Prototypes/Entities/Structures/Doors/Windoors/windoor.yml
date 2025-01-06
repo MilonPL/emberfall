@@ -308,7 +308,7 @@
 - type: entity
   parent: WindoorSecureSecurityLocked
   id: WindoorSecureDetectiveLocked
-  suffix: Detective, Locked
+  suffix: Inspector, Locked # Emberfall: Detective -> Inspector
   components:
   - type: ContainerFill
     containers:

@@ -1,0 +1,13 @@
+# Emberfall Roles Playtime Trackers
+# Please keep this alphabetical, gang.
+- type: playTimeTracker
+  id: JobCommandingOfficer
+
+- type: playTimeTracker
+  id: JobExecutiveOfficer
+
+- type: playTimeTracker
+  id: JobInspector
+
+- type: playTimeTracker
+  id: JobPharmacist
