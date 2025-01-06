@@ -128,10 +128,10 @@
   id: SignalTimerElectronics
   result: SignalTimerElectronics
 
-- type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
-  id: CloningPodMachineCircuitboard
-  result: CloningPodMachineCircuitboard
+#- type: latheRecipe # Emberfall
+#  parent: BaseGoldCircuitboardRecipe
+#  id: CloningPodMachineCircuitboard
+#  result: CloningPodMachineCircuitboard
 
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
@@ -429,10 +429,10 @@
   id: SolarTrackerElectronics
   result: SolarTrackerElectronics
 
-- type: latheRecipe
-  parent: BaseCircuitboardRecipe
-  id: CloningConsoleComputerCircuitboard
-  result: CloningConsoleComputerCircuitboard
+#- type: latheRecipe # Emberfall
+#  parent: BaseCircuitboardRecipe
+#  id: CloningConsoleComputerCircuitboard
+#  result: CloningConsoleComputerCircuitboard
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
