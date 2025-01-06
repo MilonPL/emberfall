@@ -448,7 +448,7 @@ entities:
     components:
     - type: MetaData
       desc: Fashionably expensive.
-      name: NT Nimbs
+      name: SC Nimbs
     - type: Transform
       pos: 0.087199986,-1.6184053
       parent: 1

@@ -38,7 +38,7 @@ public sealed partial class CargoBountyPrototype : IPrototype
     /// A prefix appended to the beginning of a bounty's ID.
     /// </summary>
     [DataField]
-    public string IdPrefix = "NT";
+    public string IdPrefix = "SC"; // Emberfall
 }
 
 [DataDefinition, Serializable, NetSerializable]

@@ -1,12 +1,17 @@
 - type: dataset
   id: TraitorCorporations
   values:
-  - "CyberSun Industries"
-  - "Gorlex Marauders"
-  - "MI13"
-  - "Tiger Cooperative"
-  - "S.E.L.F."
-  - "Animal Rights Consortium"
-  - "Donk Corporation"
-  - "Waffle Corporation"
-  - "Interdyne Pharmaceutics"
+#  - "CyberSun Industries"
+#  - "Gorlex Marauders"
+#  - "MI13"
+#  - "Tiger Cooperative"
+#  - "S.E.L.F."
+#  - "Animal Rights Consortium"
+#  - "Donk Corporation"
+#  - "Waffle Corporation"
+#  - "Interdyne Pharmaceutics"
+# Emberfall changes
+  - "Chimera Biotech"
+  - "Stormforge"
+  - "Eclipse Dynamic Solutions"
+  - "Vertex Inc."

@@ -1,32 +1,34 @@
+## Clothing - Headwear
 ent-ClothingHeadHelmetSwat =
     .desc = An extremely robust helmet, commonly used by paramilitary forces. This one has the Solus Concord logo emblazoned on the top.
 
-ent-ClothingUniformJumpsuitNanotrasen = solus concord jumpsuit
-    .desc = A stately blue jumpsuit to represent Solus Concord.
+ent-ClothingHeadHatSecurityTrooper =
+    .desc = A campaign hat for the Solus Concord Troopers, comes with a case too, but you lost it.
 
+ent-ClothingHeadHelmetHardsuitSecurityRed =
+    .desc = Security hardsuit helmet with the latest top secret SC-HUD software. Belongs to the HoS.
+
+ent-ClothingHeadHelmetHardsuitSyndie =
+    .desc = A heavily armored helmet designed for work in special operations. Property of Stormforge.
+
+ent-ClothingHeadHelmetHardsuitSyndieElite =
+    .desc = An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Stormforge.
+
+ClothingHeadHelmetHardsuitCybersun = stormforge juggernaut helmet
+
+## Clothing - Headsets and Masks
 ent-ClothingHeadsetCentCom =
     .desc = A headset used by the upper echelons of the Solus Concord.
 
-ent-CrateServiceJanitorialSupplies = janitorial supplies crate
-    .desc = Fight back against dirt and grime with Solus Concord's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, rag, and trash bag.
+ent-ClothingMaskGasCaptain =
+    .desc = Solus Concord cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
 
-ent-ClothingBackpackCaptain =
-    .desc = It's a special backpack made exclusively for Solus Concord officers.
+ent-ClothingMaskGasDeathSquad =
+    .desc = A unique gas mask for the SC's most elite squad.
 
-ent-ClothingNeckCloakCap =
-    .desc = A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
-
-ent-ClothingHeadsetQM =
-    .desc = A headset used by the quartermaster.
-
-ent-ClothingBackpackSatchelCaptain =
-    .desc = An exclusive satchel for Solus Concord officers.
-
-ent-ClothingUniformJumpskirtSecGrey =
-    .desc = A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
-
-ent-ClothingUniformJumpsuitSecGrey =
-    .desc = A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
+## Clothing - Uniforms
+ent-ClothingUniformJumpsuitNanotrasen = solus concord jumpsuit
+    .desc = A stately blue jumpsuit to represent Solus Concord.
 
 ent-ClothingUniformJumpsuitCentcomOfficer =
     .desc = It's a jumpsuit worn by Solus Concord Officers.
@@ -46,6 +48,86 @@ ent-ClothingUniformSecurityTrooper =
 ent-ClothingUniformJumpsuitWarden =
     .desc = A formal security suit for officers complete with SC belt buckle.
 
+ent-ClothingUniformJumpsuitRepairmanSyndie =
+    .desc = Functional, fashionable, and badass. SC's engineers wish they could look as good as this.
+
+ent-ClothingUniformJumpskirtSecGrey =
+    .desc = A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
+
+ent-ClothingUniformJumpsuitSecGrey =
+    .desc = A tactical relic of years past before Solus Concord decided it was cheaper to dye the suits red instead of washing out the blood.
+
+## Clothing - Outerwear and Hardsuits
+ent-ClothingOuterHardsuitJuggernaut = stormforge juggernaut suit
+    .desc = A suit made by the cutting edge R&D department at Stormforge to be hyper resilient.
+
+ent-ClothingOuterArmorRaid =
+    .desc = A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Stormforge's iconic blood-red color scheme, it does not protect its wearer from space.
+
+ent-ClothingOuterHardsuitSyndie =
+    .desc = A heavily armored hardsuit designed for work in special operations. Property of Stormforge.
+
+ent-ClothingOuterHardsuitSyndieElite =
+    .desc = An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Stormforge.
+
+## Clothing - Accessories
+ent-ClothingNeckCloakAce =
+    .desc = Cloak awarded to SC's finest space aces.
+
+ent-ClothingNeckCloakGay =
+    .desc = This cloak is highly sought after in the Solus Concord Marketing Offices.
+
+ent-ClothingNeckLawyerbadge =
+    .desc = A badge to show that the owner is a 'legitimate' lawyer who passed the SC bar exam required to practice law.
+
+## Clothing - Footwear
+ent-ClothingShoesBootsJack =
+    .desc = Standard-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+
+ent-ClothingShoesBootsJackFilled =
+    .desc = Standard-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+
+## Clothing - Storage
+ent-ClothingBackpackCaptain =
+    .desc = It's a special backpack made exclusively for Solus Concord officers.
+
+ent-ClothingBackpackSatchelCaptain =
+    .desc = An exclusive satchel for Solus Concord officers.
+
+ent-ClothingBeltMilitaryWebbingMed =
+    .desc = A set of tactical webbing worn by Stormforge medic operatives.
+
+## Structures - Storage
+ent-ClosetBase =
+    .desc = A standard-issue Solus Concord storage unit.
+
+ent-BaseWallCloset =
+    .desc = A standard-issue Solus Concord storage unit, now on walls.
+
+ent-ClosetCursed =
+    .desc = A standard-issue Solus Concord storage unit.
+
+ent-LockerSteel =
+    .desc = A standard-issue Solus Concord storage unit.
+
+ent-ClosetSteelBase =
+    .desc = A standard-issue Solus Concord storage unit.
+
+## Structures - Wardrobes
+ent-WardrobeBase =
+    .desc = It's a storage unit for standard-issue clothing.
+
+ent-WardrobeChapel =
+    .desc = It's a storage unit for religious attire.
+
+## Structures - Signs
+ent-SignHead =
+    .desc = An official sign indicating the dwellings of a SC-certified head of department.
+
+ent-SignZomlab =
+    .desc = The final remains of a shut-down research project that aimed to harness the powers of Romerol. I wonder how that went...
+
+## Posters - Contraband
 ent-PosterContrabandMissingGloves =
     .desc = This poster references the uproar that followed Solus Concord's financial cuts toward insulated-glove purchases.
 
@@ -61,6 +143,13 @@ ent-PosterContrabandPower =
 ent-PosterContrabandRebelsUnite =
     .desc = A poster urging the viewer to rebel against Solus Concord.
 
+ent-PosterContrabandEnlistGorlex =
+    .desc = Enlist with the Starforge operatives today! See the galaxy, kill corpos, get paid!
+
+ent-PosterContrabandInterdyne = Vertex Incorporated: For the Health of Humankind
+    .desc = An advertisement for Vertex Incorporated GeneClean clinics. 'Become the master of your own body!'
+
+## Posters - Legal
 ent-PosterLegit50thAnniversaryVintageReprint =
     .desc = A reprint of a poster from 2305, commemorating the 50th Anniversary of Solus Manufacturing, a subsidiary of Solus Concord.
 
@@ -73,52 +162,16 @@ ent-PosterLegitNoERP =
 ent-PosterLegitThereIsNoGasGiant =
     .desc = Solus Concord has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
 
-ent-ClothingHeadHatSecurityTrooper =
-    .desc = A campaign hat for the Solus Concord Troopers, comes with a case too, but you lost it.
+## Items - Medical
+ent-Bloodpack =
+    .desc = Contains a universal blood replacement.
 
-ent-ClothingMaskGasCaptain =
-    .desc = Solus Concord cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+ent-DefibrillatorSyndicate = vertex defibrillator
 
-ent-ClothingNeckCloakAce =
-    .desc = Cloak awarded to SC's finest space aces.
+ent-MindShieldImplant =
+    .desc = This implant will protect you from mind control devices.
 
-ent-ClothingNeckCloakGay =
-    .desc = This cloak is highly sought after in the Solus Concord Marketing Offices.
-
-ent-ClothingShoesBootsJack =
-    .desc = Standard-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
-
-ent-ClothingUniformJumpsuitRepairmanSyndie =
-    .desc = Functional, fashionable, and badass. SC's engineers wish they could look as good as this.
-
-ent-BorgChassisSyndicateSaboteur =
-    .desc = A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a regular cyborg.
-
-ent-NTVisitorSpawner50 = Solus Concord visitor spawner
-
-ent-NTVisitorSpawner33 = Solus Concord visitor spawner
-
-ent-NTVisitorSpawner25 = Solus Concord visitor spawner
-
-ent-NTVisitorSpawner20 = Solus Concord visitor spawner
-
-ent-NTVisitorSpawner10 = Solus Concord visitor spawner
-
-ent-HandTeleporter =
-    .desc = An SC signature item--only the finest aeonite tech. Instructions: Use once to create a portal which teleports at random. Use again to link it to a portal at your current location. Use again to clear all portals.
-
-ent-ToyFigurineCaptain =
-    .desc =  description: A figurine depicting the standard outfit of a captain belonging to a Solus Concord station.
-
-ent-BeachBall =
-    .desc = The simple beach ball is one of SC's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Solus Concord
-
-ent-IngotBase =
-    .desc = A heavy metal ingot stamped with the Solus Concord logo.
-
-ent-BedsheetCaptain =
-    .desc = It has a Solus Concord symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains.
-
+## Items - Books and Documentation
 ent-BookEngineersHandbook =
     .desc = A handbook about engineering.
 
@@ -131,58 +184,53 @@ ent-BookSecurity =
 ent-BookSpaceLaw =
     .desc = A set of guidelines and procedures for keeping law and order aboard Solus Concord stations.
 
+## Items - Toys and Entertainment
+ent-ToyFigurineCaptain =
+    .desc =  description: A figurine depicting the standard outfit of a captain belonging to a Solus Concord station.
+
+ent-BeachBall =
+    .desc = The simple beach ball is one of SC's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Solus Concord
+
+ent-BlockGameArcade = SC block game
+
+## Items - Security and Access
+ent-ComputerId =
+    .desc = Terminal for programming employee ID cards to access parts of the station.
+
+ent-HandTeleporter =
+    .desc = An SC signature item--only the finest aeonite tech. Instructions: Use once to create a portal which teleports at random. Use again to link it to a portal at your current location. Use again to clear all portals.
+
 ent-NukeDisk =
     .desc = A nuclear auth disk, capable of arming a nuke if used along with a code. There's a note attached to it that reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
 
 ent-NukeDiskFake =
     .desc = A nuclear auth disk, capable of arming a nuke if used along with a code. There's a note attached to it that reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
 
-ent-MindShieldImplant =
-    .desc = This implant will protect you from mind control devices.
+## Items - Miscellaneous
+ent-IngotBase =
+    .desc = A heavy metal ingot stamped with the Solus Concord logo.
 
-ent-MechVim =
-    .desc = A miniature exosuit, developed to let the irreplaceable station pets live a little longer.
-
-ent-Bloodpack =
-    .desc = Contains a universal blood replacement.
-
-ent-VendingMachineRestockCostumes =
-    .desc = A panoply of Solus Concord employees are prancing about a colorful theater in a tragicomedy. You can join them too! Load this into your nearest AutoDrobe vending machine.
+ent-BedsheetCaptain =
+    .desc = It has a Solus Concord symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains.
 
 ent-EmergencyLight =
     .desc =  A small light with an internal battery that turns on as soon as it stops receiving any power. Advanced technology allows it to adapt its color to alert crew to the conditions of the station.
 
-ent-ComputerId =
-    .desc = Terminal for programming employee ID cards to access parts of the station.
+ent-CyberPen = syndicate pen
+    .desc = A high-tech pen straight from the Syndicate's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write. So powerful, it's even able to rewrite officially stamped documents should the need arise.
 
-ent-ClosetBase =
-    .desc = A standard-issue Solus Concord storage unit.
+ent-SyndiHypo = syndicate hypospray
+    .desc = Using reverse engineered designs from SC, Stormforge produced these in limited quantities for their operatives.
 
-ent-BaseWallCloset =
-    .desc = A standard-issue Solus Concord storage unit, now on walls.
+ent-PenCentcom =
+    .desc = In an attempt to keep up with the "power" of the Syndicate bureaucracy, SC made a replica of cyber pen, in their corporate style.
 
-ent-ClosetCursed =
-    .desc = A standard-issue Solus Concord storage unit.
+ent-HoloparasiteInfo =
+    .desc = A tiny volumetric display for documents, makes one wonder if Stormforge's legal budget is way too high.
 
-ent-WardrobeBase =
-    .desc = It's a storage unit for standard-issue clothing.
-
-ent-WardrobeChapel =
-    .desc = It's a storage unit for religious attire.
-
-ent-SignHead =
-    .desc = An official sign indicating the dwellings of a SC-certified head of department.
-
-ent-SignZomlab =
-    .desc = The final remains of a shut-down research project that aimed to harness the powers of Romerol. I wonder how that went...
-
-ent-LockerSteel =
-    .desc = A standard-issue Solus Concord storage unit.
-
-ent-ClosetSteelBase =
-    .desc = A standard-issue Solus Concord storage unit.
-
-ent-BoxAgrichem = SC "AgriChem Is Fun" kit
+## Catalog and fills
+ent-CrateServiceJanitorialSupplies = janitorial supplies crate
+    .desc = Fight back against dirt and grime with Solus Concord's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, rag, and trash bag.
 
 ent-CrateArmoryPistols =
     .desc = Containts two Mk58 pistols with four mags. Requires Armory access to open.
@@ -196,19 +244,46 @@ ent-CrateFunPlushie =
 ent-CrateFunLizardPlushieBulk =
     .desc = A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to SC.
 
-ent-PaperAgrichemManual = SC "AgriChem Is Fun" manual
+ent-CrateCybersunJuggernautBundle = stormforge juggernaut bundle
 
-ent-ClothingHeadHelmetHardsuitSecurityRed =
-    .desc = Security hardsuit helmet with the latest top secret SC-HUD software. Belongs to the HoS.
+## Vending Machines
+ent-VendingMachineRestockCostumes =
+    .desc = A panoply of Solus Concord employees are prancing about a colorful theater in a tragicomedy. You can join them too! Load this into your nearest AutoDrobe vending machine.
 
-ent-ClothingMaskGasDeathSquad =
-    .desc = A unique gas mask for the SC's most elite squad.
+ent-VendingMachineSustenance =
+    .desc = A vending machine which vends food, as required by section 47-C of the SC's Prisoner Ethical Treatment Agreement.
 
-ent-ClothingNeckLawyerbadge =
-    .desc = A badge to show that the owner is a 'legitimate' lawyer who passed the SC bar exam required to practice law.
+## Robotics and AI
+ent-BorgChassisSyndicateSaboteur =
+    .desc = A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a regular cyborg.
+
+ent-MechVim =
+    .desc = A miniature exosuit, developed to let the irreplaceable station pets live a little longer.
 
 ent-NTDefaultCircuitBoard = law board (SC Default)
     .desc = An electronics board containing the SC Default lawset.
+
+## Spawners
+ent-NTVisitorSpawner50 = Solus Concord visitor spawner
+ent-NTVisitorSpawner33 = Solus Concord visitor spawner
+ent-NTVisitorSpawner25 = Solus Concord visitor spawner
+ent-NTVisitorSpawner20 = Solus Concord visitor spawner
+ent-NTVisitorSpawner10 = Solus Concord visitor spawner
+
+## Flags and Banners
+ent-SyndieHandyFlag =
+    .desc = For truly rebellious patriots. Death to SC!
+
+ent-BannerSyndicate =
+    .desc = A banner from which, according to the syndicate, you should feel hatred for SC
+
+ent-SyndieFlag =
+    .desc = Smells bloody. Death to SC!
+
+## Consumables
+ent-BoxAgrichem = SC "AgriChem Is Fun" kit
+
+ent-PaperAgrichemManual = SC "AgriChem Is Fun" manual
 
 ent-CigPackMixedMedical =
     .desc = Dan worked with SC chemistry to dispose of excess chemicals, ENJOY.
@@ -219,22 +294,5 @@ ent-CigPackMixed =
 ent-CigPackMixedNasty =
     .desc = Dan worked with SC chemistry to dispose of excess chemicals, ENJOY.
 
-ent-SyndieHandyFlag =
-    .desc = For truly rebellious patriots. Death to SC!
-
-ent-PenCentcom =
-    .desc = In an attempt to keep up with the "power" of the syndicate bureaucracy, SC made a replica of cyber pen, in their corporate style.
-
-ent-BannerSyndicate =
-    .desc = A banner from which, according to the syndicate, you should feel hatred for SC
-
-ent-BlockGameArcade = SC block game
-
-ent-VendingMachineSustenance =
-    .desc = A vending machine which vends food, as required by section 47-C of the SC's Prisoner Ethical Treatment Agreement.
-
-ent-SyndieFlag =
-    .desc = Smells bloody. Death to SC!
-
-ent-
-    .desc =
+ent-CigPackSyndicate =
+    .desc = vertex herbals packet

@@ -1,5 +1,5 @@
 ent-WeaponLightMachineGunL6 =
-    .desc = Cybersun Industries' take on squad support. Holds enough ammunition to suppress an entire hallway or write your name in bullets on the hull. The instruction manual includes a section on 'Aggressive Negotiations' and 'Area Denial'.
+    .desc = Stormforge's take on squad support. Holds enough ammunition to suppress an entire hallway or write your name in bullets on the hull. The instruction manual includes a section on 'Aggressive Negotiations' and 'Area Denial'.
 
 ent-WeaponLightMachineGunL6C =
     .desc = A modified L6 SAW designed for cyborg use. Creates ammunition on the fly from an internal fabricator that slowly self-charges.
