@@ -1,0 +1,2 @@
+- type: playTimeTracker # no its not ever used, but needs to exist
+  id: JobSeniorEngineer

@@ -2,6 +2,7 @@ using Content.Server.Access.Components;
 using Content.Server.GameTicking;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
+using Content.Shared.Access.Components; // Emberfall
 using Content.Shared.Access.Systems;
 using Content.Shared.Roles;
 using Content.Shared.StatusIcon;
@@ -79,10 +80,17 @@ public sealed class PresetIdCardSystem : EntitySystem
 
         _accessSystem.SetAccessToJob(uid, job, extended);
 
-        _cardSystem.TryChangeJobTitle(uid, job.LocalizedName);
+        // Begin Emberfall
+        var card = Comp<IdCardComponent>(uid);
+
+        if (card.JobTitle == null)
+            _cardSystem.TryChangeJobTitle(uid, job.LocalizedName);
+        // End Emberfall
+
         _cardSystem.TryChangeJobDepartment(uid, job);
 
-        if (_prototypeManager.TryIndex(job.Icon, out var jobIcon))
+        if (card.JobIcon == "JobIconUnknown" && // Emberfall - Only set the icon if we're not overwriting it
+            _prototypeManager.TryIndex(job.Icon, out var jobIcon))
             _cardSystem.TryChangeJobIcon(uid, jobIcon);
     }
 }
