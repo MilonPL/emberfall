@@ -95,6 +95,15 @@
             min: 1.5
         clear: True
         time: 5
+      - !type:PopupMessage # Emberfall - colorless, smells pungent
+        type: Local
+        visualType: Medium
+        messages: [ "plasma-smell" ]
+        probability: 0.8
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Plasma
+          min: 0.1
   reactiveEffects:
     Flammable:
       methods: [ Touch ]
