@@ -109,11 +109,7 @@ namespace Content.Server.Access.Systems
                 return;
 
             // Emberfall - Get current number if it exists
-            uint? currentNumber = null;
-            if (TryComp<NanoChatCardComponent>(uid, out var comp))
-                currentNumber = comp.Number;
-
-            var number = Comp<NanoChatCardComponent>(uid).Number;
+            var currentNumber = Comp<NanoChatCardComponent>(uid).Number;
 
             var state = new AgentIDCardBoundUserInterfaceState(
                 idCard.FullName ?? "",
