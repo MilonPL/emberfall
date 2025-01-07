@@ -21,8 +21,10 @@ namespace Content.Client.Access.UI
 
         private const int JobIconColumnCount = 10;
 
+        private const int MaxNumberLength = 4; // Emberfall - Same as NewChatPopup
         public event Action<string>? OnNameChanged;
         public event Action<string>? OnJobChanged;
+        public event Action<uint>? OnNumberChanged; // Emberfall - Add event for number changes
 
         public event Action<ProtoId<JobIconPrototype>>? OnJobIconChanged;
 
@@ -37,6 +39,36 @@ namespace Content.Client.Access.UI
 
             JobLineEdit.OnTextEntered += e => OnJobChanged?.Invoke(e.Text);
             JobLineEdit.OnFocusExit += e => OnJobChanged?.Invoke(e.Text);
+
+            // Emberfall - Add handlers for number changes
+            NumberLineEdit.OnTextEntered += OnNumberEntered;
+            NumberLineEdit.OnFocusExit += OnNumberEntered;
+
+            // Emberfall
+            NumberLineEdit.OnTextChanged += args =>
+            {
+                if (args.Text.Length > MaxNumberLength)
+                {
+                    NumberLineEdit.Text = args.Text[..MaxNumberLength];
+                }
+
+                // Filter to digits only
+                var newText = string.Concat(args.Text.Where(char.IsDigit));
+                if (newText != args.Text)
+                    NumberLineEdit.Text = newText;
+            };
+        }
+        // Emberfall - Add number validation and event
+        private void OnNumberEntered(LineEdit.LineEditEventArgs args)
+        {
+            if (uint.TryParse(args.Text, out var number) && number > 0)
+                OnNumberChanged?.Invoke(number);
+        }
+
+        // Emberfall - Add setter for current number
+        public void SetCurrentNumber(uint? number)
+        {
+            NumberLineEdit.Text = number?.ToString("D4") ?? "";
         }
 
         public void SetAllowedIcons(string currentJobIconId)

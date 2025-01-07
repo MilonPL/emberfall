@@ -81,6 +81,7 @@
       - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReaderCartridge
+      - NanoChatCartridge # Emberfall
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -132,6 +133,7 @@
     - NotekeeperCartridge
     - NewsReaderCartridge
     - WantedListCartridge
+    - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: BasePDA
@@ -145,6 +147,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - MedTekCartridge
+      - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: BasePDA
@@ -470,6 +473,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: BasePDA
@@ -819,6 +823,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - LogProbeCartridge
+    - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: BaseSecurityPDA
@@ -889,6 +894,7 @@
       - WantedListCartridge
       - LogProbeCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: CentcomPDA
@@ -913,6 +919,7 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Emberfall
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1061,6 +1068,7 @@
       - WantedListCartridge
       - LogProbeCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1229,6 +1237,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - LogProbeCartridge
+    - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1256,6 +1265,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - MedTekCartridge
+    - NanoChatCartridge # Emberfall
 
 - type: entity
   parent: ClownPDA

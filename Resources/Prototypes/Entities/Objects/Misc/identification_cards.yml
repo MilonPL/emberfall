@@ -25,6 +25,7 @@
     - WhitelistChameleonIdCard
   - type: StealTarget
     stealGroup: IDCard
+  - type: NanoChatCard # Emberfall
 
 #IDs with layers
 
@@ -834,3 +835,5 @@
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
+  - type: NanoChatCard # Emberfall
+    notificationsMuted: true
