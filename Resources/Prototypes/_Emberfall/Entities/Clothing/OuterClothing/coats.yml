@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatCSS
+  name: css's suit jacket
+  description: A jensen coat.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/OuterClothing/Coats/css_jacket.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/OuterClothing/Coats/css_jacket.rsi

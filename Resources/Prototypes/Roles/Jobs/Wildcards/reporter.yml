@@ -5,7 +5,7 @@
   playTimeTracker: JobReporter
   startingGear: ReporterGear
   icon: "JobIconReporter"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-css # Emberfall
   access:
   - Service
   - Maintenance

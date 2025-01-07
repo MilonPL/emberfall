@@ -1,0 +1,47 @@
+- type: job
+  id: ChiefServiceSupervisor
+  name: job-name-css
+  description: job-description-css
+  playTimeTracker: JobChiefServiceSupervisor
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 54000 # 15 hours
+  - !type:DepartmentTimeRequirement
+    department: Civilian
+    time: 36000 # 10 hours
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 18000 # 5 hours
+  startingGear: CSSGear
+  icon: JobIconChiefServiceSupervisor
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Command
+  - ChiefServiceSupervisor
+  - Bar
+  - Service
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+
+- type: startingGear
+  id: CSSGear
+  equipment:
+    eyes: ClothingEyesHudCommand
+    belt: BoxFolderClipboard
+    id: CSSPDA
+  storage:
+    back:
+    - Flash

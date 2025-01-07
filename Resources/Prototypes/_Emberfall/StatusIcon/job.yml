@@ -1,0 +1,6 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconChiefServiceSupervisor
+  icon:
+    sprite: /Textures/_Emberfall/Interface/Misc/job_icons.rsi
+    state: ChiefServiceSupervisor

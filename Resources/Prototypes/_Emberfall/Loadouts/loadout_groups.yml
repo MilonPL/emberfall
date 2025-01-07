@@ -1,0 +1,35 @@
+- type: loadoutGroup
+  id: CSSJumpsuit
+  name: loadout-group-css-jumpsuit
+  loadouts:
+  - CSSJumpsuit
+  - CSSJumpskirt
+
+- type: loadoutGroup
+  id: CSSShoes
+  name: loadout-group-css-shoes
+  loadouts:
+  - BrownLeatherShoes
+  - LaceupShoes
+
+- type: loadoutGroup
+  id: CSSOuter
+  name: loadout-group-css-outerclothing
+  loadouts:
+  - BartenderVest
+  - CSSCoat
+
+- type: loadoutGroup
+  id: CSSEar
+  name: loadout-group-css-headset
+  loadouts:
+  - CSSHeadset
+  - CSSAltHeadset
+
+- type: loadoutGroup
+  id: CSSGloves
+  name: loadout-group-css-gloves
+  minLimit: 0
+  loadouts:
+  - HoPGloves
+  - InspectionGloves

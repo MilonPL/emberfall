@@ -1,0 +1,9 @@
+- type: entity
+  parent: Pen
+  id: PenCSS
+  name: css's fountain pen
+  description: A luxurious fountain pen for the CSS of the station.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Misc/pens.rsi
+    state: pen_css

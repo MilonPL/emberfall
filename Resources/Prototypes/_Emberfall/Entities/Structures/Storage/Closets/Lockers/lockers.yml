@@ -1,0 +1,24 @@
+- type: entity
+  parent: LockerBase
+  id: LockerBaseEmberfall
+  description: A standard-issue Solus Concord storage unit.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Structures/Storage/closet.rsi
+
+- type: entity
+  parent: [ LockerBaseEmberfall, LockerBaseSecure ]
+  id: LockerBaseSecureEmberfall
+
+- type: entity
+  parent: LockerBaseSecureEmberfall
+  id: LockerChiefServiceSupervisor
+  name: chief service supervisor's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: css_cabinet
+    stateDoorOpen: css_cabinet_open
+    stateDoorClosed: css_cabinet_door
+  - type: AccessReader
+    access: [ [ "ChiefServiceSupervisor" ] ]

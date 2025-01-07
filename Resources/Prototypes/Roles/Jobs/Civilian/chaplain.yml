@@ -5,7 +5,7 @@
   playTimeTracker: JobChaplain
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-css # Emberfall
   access:
   - Chapel
   - Maintenance

@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingHeadsetAltCommand
+  id: ClothingHeadsetAltCSS
+  name: chief service supervisor's over-ear headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+      - EncryptionKeyService

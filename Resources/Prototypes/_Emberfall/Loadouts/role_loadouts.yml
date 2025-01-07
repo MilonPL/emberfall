@@ -1,0 +1,13 @@
+- type: roleLoadout
+  id: JobChiefServiceSupervisor
+  groups:
+  - CSSJumpsuit
+  - CSSOuter
+  - CSSShoes
+  - CSSEar
+  - CSSGloves
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
