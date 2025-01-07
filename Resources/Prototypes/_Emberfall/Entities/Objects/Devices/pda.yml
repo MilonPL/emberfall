@@ -7,13 +7,14 @@
     sprite: _Emberfall/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
+      state: pda
+    - state: light_overlay
       map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
+      shader: unshaded
       visible: false
-    - state: "id_overlay"
+    - state: id_overlay
       map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
+      shader: unshaded
       visible: false
   - type: Pda
     id: CSSIDCard
