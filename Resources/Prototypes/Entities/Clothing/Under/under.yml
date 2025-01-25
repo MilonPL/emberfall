@@ -2,7 +2,7 @@
 # I would cry if we didn't have them. -swept
 
 - type: entity
-  parent: ClothingShoesBase
+  parent: ClothingUnderSocksBase # Emberfall
   id: ClothingUnderSocksBee
   name: bee socks
   description: Make them loins buzz!
@@ -11,9 +11,12 @@
     sprite: Clothing/Under/Socks/bee.rsi
   - type: Clothing
     sprite: Clothing/Under/Socks/bee.rsi
+    clothingVisuals: # Emberfall
+      socks:
+      - state: equipped-FEET
 
 - type: entity
-  parent: ClothingShoesBase
+  parent: ClothingUnderSocksBase # Emberfall
   id: ClothingUnderSocksCoder
   name: coder socks
   description: It's time to code sisters!!11!
@@ -22,3 +25,6 @@
     sprite: Clothing/Under/Socks/coder.rsi
   - type: Clothing
     sprite: Clothing/Under/Socks/coder.rsi
+    clothingVisuals: # Emberfall
+      socks:
+      - state: equipped-FEET

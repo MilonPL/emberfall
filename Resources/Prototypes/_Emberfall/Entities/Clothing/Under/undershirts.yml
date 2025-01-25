@@ -1,0 +1,441 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderShirtBase
+  components:
+  - type: Clothing
+    slots: [ undershirt ]
+  - type: Sprite
+    state: icon
+  - type: TemperatureProtection
+    coolingCoefficient: 0.9
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBasic
+  name: undershirt
+  description: A basic undershirt for staying cozy and covered.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt.rsi
+
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBand
+  name: band shirt
+  description: A cool band shirt, ready for concerts or just jamming out at home.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_band.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_band.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBee
+  name: bee shirt
+  description: A bee-themed shirt, buzzing with style.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bee.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBlue
+  name: sporty blue shirt
+  description: A sporty blue shirt, ideal for working out or lounging.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_blue.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_blue.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtGreen
+  name: sporty green shirt
+  description: A sporty green shirt, ready for the gym or trails.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_green.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_green.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtRed
+  name: sporty red shirt
+  description: A sporty red shirt, ready for the gym or couch time.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_red.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_red.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBowlingRed
+  name: red bowling shirt
+  description: A red bowling shirt, ready to knock down those pins in style.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_red.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_red.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBowlingNavy
+  name: navy bowling shirt
+  description: A navy bowling shirt, making a statement on the lanes.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_navy.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_navy.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBowlingPink
+  name: pink bowling shirt
+  description: A pink bowling shirt, showing off your playful side.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_pink.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_pink.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBowlingWhite
+  name: white bowling shirt
+  description: A white bowling shirt, keeping it simple and stylish.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_white.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_bowling_white.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBra
+  name: bra
+  description: A basic bra, providing comfort and support for everyday wear.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBraBee
+  name: bee-kini bra
+  description: A bra with a little sting-er.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_bee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_bee.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderbra_binder_strapless
+  name: strapless binder bra
+  description: A strapless bra, for those who like to keep it simple.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_binder_strapless.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_binder_strapless.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderbra_binder
+  name: binder bra
+  description: A bra for keeping your chest in check.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_binder.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_binder.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderbra_neko
+  name: neko bra
+  description: A cat-themed bra, for the cat-lovers out there.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_neko.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_neko.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBraSwimming
+  name: swimming bra
+  description: A comfortable bra, perfect for pool-parties.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_swimming.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/bra_swimming.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtCowboyRed
+  name: red cowboy shirt
+  description: A bold red cowboy shirt, standing out from the crowd.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_red.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_red.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtCowboyRedAlt
+  name: red cowboy t-shirt
+  description: A red cowboy t-shirt, ready to ride off into the sunset in style.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_red_alt.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_red_alt.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtCowboyWhite
+  name: white cowboy shirt
+  description: A white cowboy shirt, ideal for looking sharp and professional.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_white.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_white.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtCowboyWhiteAlt
+  name: white cowboy shirt t-shirt
+  description: A white cowboy t-shirt, perfect for a day on the ranch or a night on the town.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_white_alt.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_cowboy_white_alt.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtIan
+  name: ian shirt
+  description: An Ian shirt, ready to look dapper for any occasion.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_ian.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_ian.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtLongjohn
+  name: long john shirt
+  description: A Long John shirt, perfect for staying cozy in the cold.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_long_john.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_long_john.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBlueStriped
+  name: blue striped shirt
+  description: A runway-inspired shirt, making you feel like you're always walking the runway.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_blue_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_blue_striped.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtStriped
+  name: striped shirt
+  description: A bold stripe undershirt, perfect for making a fashion statement.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_striped.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtLover
+  name: lover shirt
+  description: A sweet and sentimental undershirt, perfect for wearing your heart on your chest.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_lover.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_lover.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtPeace
+  name: peace shirt
+  description: An eye-catching undershirt with a peaceful message.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_peace.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_peace.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtPolo
+  name: polo shirt
+  description: A stylish polo shirt, perfect for golfing or a Little League game.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_polo.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_polo.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtAlien
+  name: alien shirt
+  description: An out-of-this-world shirt for your love of extraterrestrial beings.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_alien.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_alien.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtClown
+  name: clown shirt
+  description: A clown shirt, ready to make everyone laugh.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_clown.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_clown.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtQuestion
+  name: question mark shirt
+  description: A shirt with more questions than answers.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_question.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_question.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtSkull
+  name: skull shirt
+  description: A shirt making a bold statement about mortality.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_skull.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_skull.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtShortSleeve
+  name: t-shirt
+  description: A classic and casual shirt for everyday wear.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_shortsleeve.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/shirt_shortsleeve.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtSwimmingBlack
+  name: black swimming shirt
+  description: A swimsuit for a sleek and stylish swim.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_black.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_black.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtSwimmingBlue
+  name: blue swimming shirt
+  description: A swimsuit for a refreshing swim with a pop of color.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_blue.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_blue.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtSwimmingRed
+  name: red swimming shirt
+  description: A swimsuit for a bold and daring swim.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_red.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/swimming_red.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtTankFire
+  name: fire tank top
+  description: A swimsuit for bringing the heat.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_fire.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_fire.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirTankRainbow
+  name: rainbow tank top
+  description: A tank top for spreading positivity and good vibes.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_rainbow.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_rainbow.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtTankStriped
+  name: striped tank top
+  description: A fashionable tank top with heads and stripes alike.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_striped.rsi
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtTankSun
+  name: sun tank top
+  description: A sunny tank top, shining bright like a sun.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_sun.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Undershirts/tank_sun.rsi

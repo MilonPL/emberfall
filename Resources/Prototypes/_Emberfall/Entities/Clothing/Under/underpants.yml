@@ -1,0 +1,134 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderPantsBase
+  components:
+  - type: Clothing
+    slots: [ underpants ]
+  - type: Sprite
+    state: icon
+  - type: TemperatureProtection
+    coolingCoefficient: 0.9
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderBeeShorts
+  name: bee shorts
+  description: A pair of bee shorts, the buzz-worthy choice for a summer day.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/bee_shorts.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/bee_shorts.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderBoxerBriefs
+  name: boxer briefs
+  description: A pair of boxer briefs, the perfect blend of comfort and support.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/boxer_briefs.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/boxer_briefs.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderBoxers
+  name: boxers
+  description: A pair of classic boxers.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/boxers.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/boxers.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderBoxersStriped
+  name: striped boxers
+  description: A pair of striped boxers, featuring a classic pattern.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/boxers_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/boxers_striped.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderBriefs
+  name: briefs
+  description: A pair of briefs, for those who want a snug fit in all the right places.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/briefs.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/briefs.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderLongjohn
+  name: long john pants
+  description: A pair of long john pants, to stay warm in these classic long underwear.
+  components:
+    - type: Sprite
+      sprite: _Emberfall/Clothing/Under/Underpants/long_john.rsi
+    - type: Clothing
+      sprite: _Emberfall/Clothing/Under/Underpants/long_john.rsi
+    - type: TemperatureProtection
+      coolingCoefficient: 0.8
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPanties
+  name: panties
+  description: A pair of regular panties, good old fashioned.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/panties.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/panties.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantiesBeekini
+  name: bee-kini panties
+  description: A pair of Bee-Kini panties, getting a buzz going with the bee-print design.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_bee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_bee.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantiesNeko
+  name: neko panties
+  description: A pair of neko panties, for the cat-lover, featuring a cute neko-print design.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_neko.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_neko.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantiesSwimming
+  name: swimming panties
+  description: A pair of Swimming panties, hitting the pool in style.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_swimming.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_swimming.rsi
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantiesStried
+  name: striped panties
+  description: A pair of striped panties.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Underpants/panties_striped.rsi
