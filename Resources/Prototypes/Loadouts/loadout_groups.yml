@@ -27,6 +27,7 @@
   - ClothingNeckLesbianPin
   - ClothingNeckNonBinaryPin
   - ClothingNeckPansexualPin
+  - ClothingNeckOmnisexualPin
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
@@ -46,6 +47,7 @@
   - TowelColorSilver
   - TowelColorWhite
   - TowelColorYellow
+  - DogTags # Emberfall
 
 - type: loadoutGroup
   id: Glasses

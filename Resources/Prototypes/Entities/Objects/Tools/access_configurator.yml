@@ -30,6 +30,7 @@
       - Chemistry
       - ChiefEngineer
       - ChiefMedicalOfficer
+      - ChiefServiceSupervisor # Emberfall
       - Command
       - Engineering
       - External
@@ -98,6 +99,7 @@
     - Chemistry
     - ChiefEngineer
     - ChiefMedicalOfficer
+    - ChiefServiceSupervisor # Emberfall
     - Command
     - Engineering
     - External

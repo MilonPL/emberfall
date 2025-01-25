@@ -25,6 +25,7 @@
     - WhitelistChameleonIdCard
   - type: StealTarget
     stealGroup: IDCard
+  - type: NanoChatCard # Emberfall
 
 #IDs with layers
 
@@ -759,6 +760,11 @@
     layers:
     - state: default
     - state: idseniorengineer
+  - type: IdCard # Emberfall
+    jobTitle: job-name-senior-engineer
+    jobIcon: JobIconSeniorEngineer
+  - type: PresetIdCard # Emberfall
+    job: SeniorEngineer
 
 - type: entity
   parent: ResearchIDCard
@@ -769,6 +775,9 @@
     layers:
     - state: default
     - state: idseniorresearcher
+  - type: IdCard # Emberfall
+    jobTitle: job-name-senior-researcher
+    jobIcon: JobIconSeniorResearcher
 
 - type: entity
   parent: MedicalIDCard
@@ -779,6 +788,9 @@
     layers:
     - state: default
     - state: idseniorphysician
+  - type: IdCard # Emberfall
+    jobTitle: job-name-senior-physician
+    jobIcon: JobIconSeniorPhysician
 
 - type: entity
   parent: SecurityIDCard
@@ -789,6 +801,9 @@
     layers:
     - state: default
     - state: idseniorofficer
+  - type: IdCard # Emberfall
+    jobTitle: job-name-senior-officer
+    jobIcon: JobIconSeniorOfficer
 
 - type: entity
   parent: IDCardStandard
@@ -820,3 +835,5 @@
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
+  - type: NanoChatCard # Emberfall
+    notificationsMuted: true

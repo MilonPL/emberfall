@@ -34,8 +34,8 @@
   specificHeat: 200
   heatCapacityRatio: 1.7
   molarMass: 120
-  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
-  gasOverlayState: plasma
+#  gasOverlaySprite: /Textures/Effects/atmospherics.rsi # Emberfall
+#  gasOverlayState: plasma
   color: FF3300
   reagent: Plasma
   pricePerMole: 0
@@ -70,8 +70,8 @@
   specificHeat: 20
   heatCapacityRatio: 1.4
   molarMass: 44
-  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
-  gasOverlayState: miasma
+#  gasOverlaySprite: /Textures/Effects/atmospherics.rsi # Emberfall
+#  gasOverlayState: miasma
   gasMolesVisible: 2
   gasVisbilityFactor: 3.5
   color: 56941E

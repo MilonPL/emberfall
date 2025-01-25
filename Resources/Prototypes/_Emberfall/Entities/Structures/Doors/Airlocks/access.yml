@@ -20,3 +20,30 @@
     - type: IFF
       flags:
       - HideLabel
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockChiefServiceSupervisorLocked
+  suffix: ChiefServiceSupervisor, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefServiceSupervisor ]
+
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockChiefServiceSupervisorGlassLocked
+  suffix: ChiefServiceSupervisor, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefServiceSupervisor ]
+
+- type: entity
+  parent: AirlockMaintCommandLocked
+  id: AirlockMaintChiefServiceSupervisorLocked
+  suffix: ChiefServiceSupervisor, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefServiceSupervisor ]

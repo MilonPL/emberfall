@@ -1,0 +1,10 @@
+# yes this needs to exist for the preset even if we're not actually using it as a job, its stupid
+- type: job
+  id: SeniorEngineer
+  playTimeTracker: JobSeniorEngineer
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+

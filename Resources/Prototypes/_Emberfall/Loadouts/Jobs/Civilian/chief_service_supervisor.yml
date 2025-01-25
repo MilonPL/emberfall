@@ -1,0 +1,39 @@
+- type: loadout
+  id: CSSJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCSS
+
+- type: loadout
+  id: CSSJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCSS
+
+- type: loadout
+  id: CSSCoat
+  equipment:
+    outerClothing: ClothingOuterCoatCSS
+
+- type: loadout
+  id: CSSHeadset
+  equipment:
+    ears: ClothingHeadsetCSS
+
+- type: loadout
+  id: CSSAltHeadset
+  equipment:
+    ears: ClothingHeadsetAltCSS
+
+- type: loadout
+  id: InspectionGloves
+  equipment:
+    gloves: ClothingHandsGlovesInspection
+
+- type: loadout
+  id: BrownLeatherShoes
+  equipment:
+    shoes: ClothingShoesLeather
+
+- type: loadout
+  id: LaceupShoes
+  equipment:
+    shoes: ClothingShoesBootsLaceup

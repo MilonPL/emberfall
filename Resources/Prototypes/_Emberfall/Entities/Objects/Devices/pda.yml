@@ -1,0 +1,29 @@
+- type: entity
+  parent: BasePDA
+  id: CSSPDA
+  name: chief service supervisor PDA
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+      state: pda
+    - state: light_overlay
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: unshaded
+      visible: false
+    - state: id_overlay
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: unshaded
+      visible: false
+  - type: Pda
+    id: CSSIDCard
+    penSlot:
+      startingItem: PenCSS
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Icon
+    sprite: _Emberfall/Objects/Devices/pda.rsi
+    state: pda-css

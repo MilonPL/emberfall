@@ -20,8 +20,9 @@
   - Boxer
   - Chaplain
   - Chef
+  - ChiefServiceSupervisor # Emberfall
   - Clown
-  - HeadOfPersonnel
+#  - HeadOfPersonnel
   - Janitor
   - Lawyer
   - Librarian
@@ -60,6 +61,7 @@
   - Captain
   - ChiefEngineer
   - ChiefMedicalOfficer
+  - ChiefServiceSupervisor # Emberfall
   - HeadOfPersonnel
   - HeadOfSecurity
   - ResearchDirector

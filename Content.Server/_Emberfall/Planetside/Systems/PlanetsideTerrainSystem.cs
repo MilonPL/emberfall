@@ -1,7 +1,15 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+// This Source Code Form is "Incompatible With Secondary
+// Licenses", as defined by the Mozilla Public License, v. 2.0.
+
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Parallax;
 using Content.Shared._Emberfall.Planetside;
 using Content.Shared.Parallax.Biomes;
+using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -26,6 +34,7 @@ public sealed class PlanetsideTerrainSystem : EntitySystem
     /// <param name="templateId"><see cref="TerrainTemplatePrototype" /> to load</param>
     /// <param name="initMap">Whether to initialize the map immediately</param>
     /// <returns>The EntityUid of the generated map</returns>
+    [PublicAPI]
     public EntityUid GenerateTerrain(ProtoId<TerrainTemplatePrototype> templateId, bool initMap = true)
     {
         var template = _prototype.Index(templateId);
@@ -41,6 +50,7 @@ public sealed class PlanetsideTerrainSystem : EntitySystem
     /// <param name="templateId"><see cref="TerrainTemplatePrototype" /> to load</param>
     /// <param name="structuresPath">File path containing structure data to load</param>
     /// <returns>The EntityUid of the generated map, or null if loading failed</returns>
+    [PublicAPI]
     public EntityUid? GenerateTerrainWithStructures(ProtoId<TerrainTemplatePrototype> templateId, string structuresPath)
     {
         var mapUid = GenerateTerrain(templateId, false);

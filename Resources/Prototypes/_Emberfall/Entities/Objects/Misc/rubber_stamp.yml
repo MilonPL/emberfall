@@ -1,0 +1,13 @@
+- type: entity
+  parent: RubberStampBase
+  id: RubberStampCSS
+  name: chief service supervisor's rubber stamp
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-css
+    stampedColor: "#3FCD54"
+    stampState: paper_stamp-css
+  - type: Sprite
+    sprite: _Emberfall/Objects/Misc/bureaucracy.rsi
+    state: stamp-css

@@ -31,8 +31,19 @@ Just make sure your changes and pull requests are in accordance with the [contri
 
 ## License
 
-All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+This is a fork of Space Station 14. All the original code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+
+Code specific to Emberfall, placed in the `_Emberfall` directory, is licensed under [MPL2 Exhibit B](https://github.com/emberfall-14/emberfall/blob/master/LICENSE-MPL.TXT), as stated by the license header.
+
+Code ported over from other forks is not owned by Emberfall and any modifications made to it must comply with the original license. For more information, see the Attributions section.
 
 Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+
+## Attributions
+
+| Subdirectory | Fork Name      | Fork Repository                                     | License |
+|--------------|----------------|-----------------------------------------------------|---------|
+| `_RMC`       | RMC-14         | https://github.com/RMC-14/RMC-14                    | MIT     |
+| `_CD`        | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT     |

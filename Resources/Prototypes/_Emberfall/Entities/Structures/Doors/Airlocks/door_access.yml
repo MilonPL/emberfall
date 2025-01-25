@@ -1,0 +1,8 @@
+# Service
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsChiefServiceSupervisor
+  suffix: ChiefServiceSupervisor, Locked
+  components:
+  - type: AccessReader
+    access: [ [ "ChiefServiceSupervisor" ] ]

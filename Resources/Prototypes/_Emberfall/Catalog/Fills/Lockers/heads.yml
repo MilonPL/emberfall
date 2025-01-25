@@ -1,0 +1,23 @@
+- type: entityTable
+  id: ChiefServiceSupervisorLockerFill
+  table: !type:AllSelector
+    children:
+    - id: BoxEncryptionKeyService
+    - id: BoxFolderBlue
+    - id: CSSIDCard
+    - id: ClothingHeadsetAltCSS
+    - id: ClothingUniformJumpskirtCSS
+    - id: ClothingUniformJumpsuitCSS
+    - id: DoorRemoteService
+    - id: DrinkCoffeeJug
+    - id: RubberStampCSS
+
+- type: entity
+  parent: LockerChiefServiceSupervisor
+  id: LockerChiefServiceSupervisorFilled
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: ChiefServiceSupervisorLockerFill

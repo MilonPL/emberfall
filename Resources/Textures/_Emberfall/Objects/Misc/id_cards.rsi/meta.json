@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/Simple-Station/Parkstation/commit/4b65cdf873a29cdcc796581a61095ebe54f1c959",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "idchiefservicesupervisor"
+        }
+    ]
+}

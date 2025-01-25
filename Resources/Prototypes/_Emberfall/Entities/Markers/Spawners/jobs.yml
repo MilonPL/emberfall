@@ -1,0 +1,12 @@
+- type: entity
+  parent: SpawnPointJobBase
+  id: SpawnPointCSS
+  name: chief service supervisor
+  components:
+  - type: SpawnPoint
+    job_id: ChiefServiceSupervisor
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: _Emberfall/Markers/jobs.rsi
+      state: css

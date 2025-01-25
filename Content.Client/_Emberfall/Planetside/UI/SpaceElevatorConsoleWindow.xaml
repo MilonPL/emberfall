@@ -1,9 +1,17 @@
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+This Source Code Form is "Incompatible With Secondary
+Licenses", as defined by the Mozilla Public License, v. 2.0.
+-->
 <controls:FancyWindow xmlns="https://spacestation14.io"
-            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-            xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
-            xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
-            Title="{Loc 'space-elevator-console-title'}"
-            MinSize="400 500">
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+                      xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+                      Title="{Loc 'space-elevator-console-title'}"
+                      MinSize="400 500">
     <BoxContainer Orientation="Vertical" Margin="5 5 5 5">
         <!-- Status header -->
         <controls:StripeBack MinSize="48 48">

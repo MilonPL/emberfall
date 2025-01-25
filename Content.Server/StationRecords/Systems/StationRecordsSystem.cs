@@ -148,12 +148,18 @@ public sealed class StationRecordsSystem : SharedStationRecordsSystem
             return;
         }
 
+        // Before creating the record, we'll get the job information either from the ID card or prototype
+        var (jobTitle, jobIcon) = idUid is { } uid && _idCard.TryFindIdCard(uid, out var card)
+            ? (Loc.GetString(card.Comp.JobTitle ?? string.Empty), card.Comp.JobIcon)
+            : (Loc.GetString(jobPrototype.LocalizedName), jobPrototype.Icon);
+
+
         var record = new GeneralStationRecord()
         {
             Name = name,
             Age = age,
-            JobTitle = jobPrototype.LocalizedName,
-            JobIcon = jobPrototype.Icon,
+            JobTitle = jobTitle, // Emberfall
+            JobIcon = jobIcon, // Emberfall
             JobPrototype = jobId,
             Species = species,
             Gender = gender,

@@ -1,0 +1,14 @@
+- type: entity
+  parent: IDCardStandard
+  id: CSSIDCard
+  name: chief service supervisor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - sprite: _Emberfall/Objects/Misc/id_cards.rsi
+      state: idchiefservicesupervisor
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: ChiefServiceSupervisor

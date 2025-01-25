@@ -5,7 +5,7 @@
   playTimeTracker: JobZookeeper
   startingGear: ZookeeperGear
   icon: "JobIconZookeeper"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-css # Emberfall
   access:
   - Service
   - Maintenance

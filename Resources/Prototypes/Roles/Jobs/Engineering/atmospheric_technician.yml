@@ -3,6 +3,7 @@
   name: job-name-atmostech
   description: job-description-atmostech
   playTimeTracker: JobAtmosphericTechnician
+  setPreference: false # Emberfall
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
