@@ -26,6 +26,9 @@ public enum SlotFlags
     LEGS = 1 << 13,
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
+    UNDERPANTS = 1 << 16, // Emberfall
+    UNDERSHIRT = 1 << 17, // Emberfall
+    SOCKS = 1 << 18, // Emberfall
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET

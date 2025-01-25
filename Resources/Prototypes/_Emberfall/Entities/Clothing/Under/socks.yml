@@ -1,0 +1,215 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderSocksBase
+  components:
+  - type: Clothing
+    slots: [ socks ]
+  - type: Sprite
+    state: icon
+  - type: TemperatureProtection
+    coolingCoefficient: 0.9
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksBeeKnee
+  name: bee knee-highs
+  description: A pair of bee knee-highs, adding some buzz to your style.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/knee_bee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/knee_bee.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksGreenStripedKnee
+  name: green striped knee-highs
+  description: A pair of green striped knee-highs, perfect for spreading holiday cheer.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped_knee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped_knee.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksGreenStriped
+  name: green striped socks
+  description: A pair of green striped socks, perfect for spreading holiday cheer one step at a time.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksGreenStripedThigh
+  name: green striped thigh-highs
+  description: A pair of green striped thigh-highs, perfect for spreading holiday cheer from your knees to your hips.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped_high.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/green_striped_high.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksRedStripedKnee
+  name: red striped knee-highs
+  description: A pair of red striped knee-highs, perfect for getting in the holiday spirit.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped_knee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped_knee.rsi
+
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksRedStriped
+  name: red striped socks
+  description: A pair of candy cane socks, adding some sweetness to your step.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksRedStripedThigh
+  name: red striped thigh-highs
+  description: A pair of red striped thigh-highs, perfect for striding with confidence and sass.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped_high.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/red_striped_high.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksRainbowKnee
+  name: rainbow knee-highs
+  description: A pair of rainbow knee-highs, perfect for brightening up a dull day.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/rainbow_knee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/rainbow_knee.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksKnee
+  name: knee-highs
+  description: A pair of knee-highs, perfect for keeping your legs warm and looking stylish.
+  suffix: uncolored
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/knee.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/knee.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocks
+  name: socks
+  description: A pair of basic socks, perfect for when you need to blend in with the crowd.
+  suffix: uncolored
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/socks.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/socks.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighBlue
+  name: blue thigh-highs
+  description: A pair of blue thigh-highs, perfect for a touch of sophistication.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_blue.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_blue.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighCyan
+  name: cyan thigh-highs
+  description: A pair of cyan thigh-highs, perfect for standing out in a sea of black.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_cyan.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_cyan.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighGreen
+  name: green thigh-highs
+  description: A pair of green thigh-highs, perfect for making everyone green with envy.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_green.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_green.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighOrange
+  name: orange thigh-highs
+  description: A pair of colorful thigh-highs, perfect for the daring fashionista.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_orange.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_orange.rsi
+
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighPurple
+  name: purple thigh-highs
+  description: A pair of royal thigh-highs, perfect for feeling like royalty with every step.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_purple.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_purple.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThighYellow
+  name: yellow thigh-highs
+  description: A pair of rainbow thigh-highs, perfect for bringing light wherever you go.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_yellow.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_yellow.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderStriped_knee
+  name: striped knee-highs
+  description: A pair of sailor stripe socks, perfect for the sailor in all of us.
+  suffix: uncolored
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/knee_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/knee_striped.rsi
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderStriped_thigh
+  name: striped thigh-highs
+  description: A pair of nautical and sassy stripe socks, perfect for the fashionista.
+  suffix: uncolored
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_striped.rsi
+  - type: Clothing
+    sprite: _Emberfall/Clothing/Under/Socks/thigh_highs_striped.rsi

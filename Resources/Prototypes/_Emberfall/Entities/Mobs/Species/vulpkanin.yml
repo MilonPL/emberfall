@@ -66,6 +66,9 @@
       sprite: _Emberfall/Mobs/Customization/Vulpkanin/masking_helpers.rsi
       state: female_full
       visible: false
+    - map: [ "underpants" ] # Emberfall
+    - map: [ "undershirt" ] # Emberfall
+    - map: [ "socks" ] # Emberfall
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
@@ -95,8 +98,8 @@
     - map: [ "pocket1" ]
     - map: [ "pocket2" ]
     - map: [ "clownedon" ]
-      sprite: "_Emberfall/Effects/creampie.rsi"
-      state: "creampie_vulpkanin"
+      sprite: _Emberfall/Effects/creampie.rsi
+      state: creampie_vulpkanin
       visible: false
 
 - type: entity
