@@ -222,6 +222,7 @@
   parent: BedsheetBase
   name: NT bedsheet
   description: It has the Nanotrasen logo on it and an aura of duty.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     state: sheetNT

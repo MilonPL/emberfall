@@ -1,0 +1,11 @@
+- type: entity
+  parent: TowelColorNT
+  id: TowelColorSC
+  name: Solus Concord brand towel
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#004787"
+    - state: iconstripe
+      color: "#A88C00"

@@ -76,7 +76,7 @@
     rewardMaxAmount: 0
     possibleRewards:
     - Basketball
-    - BalloonNT
+    - BalloonSC # Emberfall - Was BalloonNT
     - BalloonCorgi
     - BoxDonkSoftBox
     - BoxCartridgeCap

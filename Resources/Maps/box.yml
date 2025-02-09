@@ -70994,7 +70994,7 @@ entities:
   - uid: 11558
     components:
     - type: MetaData
-      name: nt approved fashionable workboot
+      name: sc approved fashionable workboot
     - type: Transform
       pos: 5.286043,8.349777
       parent: 8364

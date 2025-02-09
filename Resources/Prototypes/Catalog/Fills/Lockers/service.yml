@@ -41,6 +41,8 @@
       - id: SprayBottleWater
       - id: ReagentContainerFlour
         amount: 2
+      - id: FoodBoxCloth
+        amount: 1
       - id: ReagentContainerSugar
       - id: FoodCondimentPacketSalt
         amount: 3
@@ -71,8 +73,8 @@
       - id: LightReplacer
       - id: BoxLightMixed
       - id: Holoprojector
-      - id: SoapNT
-        amount: 2
+#      - id: SoapNT
+#        amount: 2
       - id: FlashlightLantern
         amount: 2
       - id: Plunger

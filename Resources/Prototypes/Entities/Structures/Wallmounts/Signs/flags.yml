@@ -23,6 +23,7 @@
   id: NTFlag
   name: Nanotrasen flag
   description: Glory to NT! Wait, they really made a flag for a corporation?
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     state: NT_flag
@@ -35,7 +36,7 @@
   components:
   - type: Sprite
     state: syndie_flag
-    
+
 - type: entity
   parent: BaseFlag
   id: LGBTQFlag
@@ -44,7 +45,7 @@
   components:
   - type: Sprite
     state: lgbtq_flag
-    
+
 - type: entity
   parent: BaseFlag
   id: PirateFlag

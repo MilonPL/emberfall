@@ -1,5 +1,23 @@
 # Emberfall specific migrations
 
+# 2024-12-24 # working on christmas eve ungrateful fucks
+AltarNanotrasen: null
+BalloonNT: BalloonSC
+NTFlag: SCFlag
+NTHandyFlag: SCHandyFlag
+PosterContrabandCybersun600: null
+PosterLegitEnlist: null
+PosterLegitNTTGC: null
+PosterLegitNanotrasenLogo: PosterLegitSCLogo
+PosterLegitVacation: PosterLegitSCVacation
+SignNanotrasen1: null
+SignNanotrasen2: null
+SignNanotrasen3: null
+SignNanotrasen4: null
+SignNanotrasen5: null
+SoapNT: null
+TowelColorNT: TowelColorSC
+
 # 12-30-2024
 WeaponRifleLecter: WeaponRifleLecterEmberfall
 WeaponRifleM90GrenadeLauncher: WeaponRifleM90

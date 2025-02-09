@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseItem
+  id: SCHandyFlag
+  name: Solus Concord handheld flag
+  description: Glory to SC!
+  components:
+    - type: Sprite
+      sprite: _Emberfall/Objects/Misc/Handy_Flags/SC_handy_flag.rsi
+      state: icon
+    - type: Item
+      sprite: _Emberfall/Objects/Misc/Handy_Flags/SC_handy_flag.rsi

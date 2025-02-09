@@ -32,7 +32,7 @@ figurines-boxer-2 = We settle this in the ring, alright?
 figurines-boxer-3 = I. AM. THE. CHAMPION!!
 figurines-boxer-4 = Don't look at me, he was shot, not punched.
 
-figurines-captain-1 = Glory to NT!
+figurines-captain-1 = Glory to SC!
 figurines-captain-2 = How did I get hired? Yes.
 figurines-captain-3 = The nuclear disk is secure. Where? Somewhere.
 
@@ -130,7 +130,7 @@ figurines-nukie-2 = Whiskey, Echo, Whiskey.
 figurines-nukie-3 = The nuke makes boom.
 figurines-nukie-4 = What's the code?
 
-figurines-nukie-elite-1 = Not a word in nanotrasen.
+figurines-nukie-elite-1 = Not a word in Solus.
 figurines-nukie-elite-2 = THAT'S A KEG!
 figurines-nukie-elite-3 = Guys are you alive?
 

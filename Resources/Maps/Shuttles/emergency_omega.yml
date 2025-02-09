@@ -17,7 +17,7 @@ entities:
   - uid: 603
     components:
     - type: MetaData
-      name: NT Evac Omega
+      name: SC Evac Omega
     - type: Transform
       pos: 2.2710133,-2.4148211
       parent: invalid

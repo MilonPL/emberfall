@@ -20,7 +20,7 @@ entities:
   - uid: 818
     components:
     - type: MetaData
-      name: NT-EM Terminal
+      name: SC-EM Terminal
     - type: Transform
       parent: invalid
     - type: MapGrid

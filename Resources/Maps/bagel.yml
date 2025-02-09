@@ -61193,7 +61193,7 @@ entities:
     components:
     - type: MetaData
       desc: Fashionably expensive.
-      name: NT Timbs
+      name: SC Timbs
     - type: Transform
       pos: -62.548008,43.377228
       parent: 60
@@ -114844,7 +114844,7 @@ entities:
     components:
     - type: MetaData
       desc: This poster looks like it was hastily put up to cover something.
-      name: Suspiciously Placed Nanotrasen Poster
+      name: Suspiciously Placed Poster
     - type: Transform
       pos: -1.5,-9.5
       parent: 60

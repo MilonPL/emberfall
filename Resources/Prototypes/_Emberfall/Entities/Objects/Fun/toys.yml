@@ -1,0 +1,12 @@
+- type: entity
+  parent: BalloonNT
+  id: BalloonSC
+  name: Solus Concord balloon
+  description: A baloon with the Solus Concord logo on it.
+  components:
+  - type: Sprite
+    sprite: _Emberfall/Objects/Fun/toys.rsi
+    state: scb
+  - type: Item
+    sprite: _Emberfall/Objects/Fun/toys.rsi
+    heldPrefix: scb

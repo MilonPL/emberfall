@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Modified by MilonPL, taken from toys.rsi at https://github.com/space-wizards/space-station-14/commit/39b2ce8cef9083a9080ca948d14a8021695413bb",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "scb"
+    },
+    {
+      "name": "scb-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "scb-inhand-right",
+      "directions": 4
+    }
+  ]
+}

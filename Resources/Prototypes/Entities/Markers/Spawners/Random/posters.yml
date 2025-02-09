@@ -86,7 +86,7 @@
       - PosterContrabandRevolt
       - PosterContrabandRise
       - PosterContrabandMoth
-      - PosterContrabandCybersun600
+#      - PosterContrabandCybersun600 # Emberfall
       - PosterContrabandDonk
       - PosterContrabandEnlistGorlex
       - PosterContrabandInterdyne
@@ -108,7 +108,7 @@
     offset: 0
     prototypes:
       - PosterLegitHereForYourSafety
-      - PosterLegitNanotrasenLogo
+#      - PosterLegitNanotrasenLogo # Emberfall
       - PosterLegitCleanliness
       - PosterLegitHelpOthers
       - PosterLegitBuild
@@ -135,7 +135,7 @@
       - PosterLegit50thAnniversaryVintageReprint
       - PosterLegitFruitBowl
       - PosterLegitPDAAd
-      - PosterLegitEnlist
+#      - PosterLegitEnlist # Emberfall
       - PosterLegitNanomichiAd
       - PosterLegit12Gauge
       - PosterLegitHighClassMartini
@@ -146,10 +146,10 @@
       - PosterLegitThereIsNoGasGiant
       - PosterLegitJustAWeekAway
       - PosterLegitSecWatch
-      - PosterLegitVacation
+#      - PosterLegitVacation # Emberfall
       - PosterLegitPeriodicTable
       - PosterLegitRenault
-      - PosterLegitNTTGC
+#      - PosterLegitNTTGC # Emgerfall
       - PosterLegitSafetyMothDelam
       - PosterLegitSafetyMothEpi
       - PosterLegitSafetyMothPiping
@@ -157,4 +157,8 @@
       - PosterLegitSafetyMothHardhat
       - PosterLegitSafetyMothSSD
       - PosterLegitOppenhopper
+      # Emberfall additions
+      - PosterLegitSCLogo
+      - PosterLegitSCVacation
+      # End Emberfall additions
     chance: 1

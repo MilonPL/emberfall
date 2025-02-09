@@ -42,6 +42,7 @@
   parent: BannerBase
   name: nanotrasen banner
   description: A banner displaying the Nanotrasen logo. It looks rather cheap.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

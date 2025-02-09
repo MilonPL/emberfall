@@ -34,8 +34,8 @@
       orGroup: loot
     - id: ClothingHeadHelmetBasic
       orGroup: loot
-    - id: SoapNT
-      orGroup: loot
+#    - id: SoapNT
+#      orGroup: loot
     - id: Bola
       orGroup: loot
     - id: Spear

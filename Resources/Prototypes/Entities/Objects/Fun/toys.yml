@@ -1249,6 +1249,7 @@
   id: BalloonNT
   name: nanotrasen balloon
   description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
+  categories: [ HideSpawnMenu ] # Emberfall
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi

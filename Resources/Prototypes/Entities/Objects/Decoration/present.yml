@@ -248,8 +248,8 @@
         orGroup: GiftPool
       - id: SoapHomemade
         orGroup: GiftPool
-      - id: SoapNT
-        orGroup: GiftPool
+#      - id: SoapNT
+#        orGroup: GiftPool
       - id: SoapDeluxe
         orGroup: GiftPool
       - id: SoapSyndie

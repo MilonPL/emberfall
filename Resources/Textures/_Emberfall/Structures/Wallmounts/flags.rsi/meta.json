@@ -1,0 +1,14 @@
+{
+  "copyright": "Modified by MilonPL, based on flags.rsi at https://github.com/space-wizards/space-station-14/commit/39b2ce8cef9083a9080ca948d14a8021695413bb",
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "SC_flag"
+    }
+  ],
+  "version": 1
+}
