@@ -145,7 +145,7 @@
 
 - type: entity
   parent: ClothingUnderShirtBase
-  id: ClothingUnderbra_binder_strapless
+  id: ClothingUnderShrtBraStrapless
   name: strapless binder bra
   description: A strapless bra, for those who like to keep it simple.
   components:
@@ -156,7 +156,7 @@
 
 - type: entity
   parent: ClothingUnderShirtBase
-  id: ClothingUnderbra_binder
+  id: ClothingUnderShirtBraBinder
   name: binder bra
   description: A bra for keeping your chest in check.
   components:
@@ -167,7 +167,7 @@
 
 - type: entity
   parent: ClothingUnderShirtBase
-  id: ClothingUnderbra_neko
+  id: ClothingUnderShirtBraNeko
   name: neko bra
   description: A cat-themed bra, for the cat-lovers out there.
   components:

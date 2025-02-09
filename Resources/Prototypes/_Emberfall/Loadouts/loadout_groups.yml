@@ -13,7 +13,7 @@
   - LaceupShoes
 
 - type: loadoutGroup
-  id: CSSOuter
+  id: CSSOuterClothing
   name: loadout-group-css-outerclothing
   loadouts:
   - BartenderVest
@@ -33,3 +33,39 @@
   loadouts:
   - HoPGloves
   - InspectionGloves
+
+- type: loadoutGroup
+  id: Underpants
+  name: loadout-group-underpants
+  loadouts:
+  - ClothingUnderBoxerBriefs
+  - ClothingUnderBeeShorts
+  - ClothingUnderBoxers
+  - ClothingUnderBoxersStriped
+  - ClothingUnderBriefs
+  - ClothingUnderLongjohn
+  - ClothingUnderPanties
+  - ClothingUnderPantiesStried
+
+- type: loadoutGroup
+  id: Undershirt
+  name: loadout-group-undershirt
+  loadouts:
+  - ClothingUnderShirtBasic
+  - ClothingUnderShirtBand
+  - ClothingUnderShirtBee
+  - ClothingUnderShirtIan
+  - ClothingUnderShirtShortSleeve
+  - ClothingUnderShirtBraBee
+  - ClothingUnderShrtBraStrapless
+  - ClothingUnderShirtBra
+
+- type: loadoutGroup
+  id: Socks
+  name: loadout-group-socks
+  loadouts:
+  - ClothingUnderSocks
+  - ClothingUnderSocksKnee
+  - ClothingUnderSocksBeeKnee
+  - ClothingUnderSocksRainbowKnee
+  - ClothingUnderSocksBee

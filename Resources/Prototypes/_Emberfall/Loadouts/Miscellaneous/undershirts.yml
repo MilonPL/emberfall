@@ -1,0 +1,44 @@
+- type: loadout
+  id: ClothingUnderShirtBasic
+  equipment:
+    undershirt: ClothingUnderShirtBasic
+
+- type: loadout
+  id: ClothingUnderShirtBand
+  equipment:
+    undershirt: ClothingUnderShirtBand
+
+- type: loadout
+  id: ClothingUnderShirtBee
+  equipment:
+    undershirt: ClothingUnderShirtBee
+
+- type: loadout
+  id: ClothingUnderShirtIan
+  equipment:
+    undershirt: ClothingUnderShirtIan
+
+- type: loadout
+  id: ClothingUnderShirtShortSleeve
+  equipment:
+    undershirt: ClothingUnderShirtShortSleeve
+
+- type: loadout
+  id: ClothingUnderShirtBraBee
+  equipment:
+    undershirt: ClothingUnderShirtBraBee
+
+- type: loadout
+  id: ClothingUnderShirtBraBinder
+  equipment:
+    undershirt: ClothingUnderShirtBraBinder
+
+- type: loadout
+  id: ClothingUnderShrtBraStrapless
+  equipment:
+    undershirt: ClothingUnderShrtBraStrapless
+
+- type: loadout
+  id: ClothingUnderShirtBra
+  equipment:
+    undershirt: ClothingUnderShirtBra

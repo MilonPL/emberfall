@@ -7,6 +7,9 @@
   - CaptainJumpsuit
   - CaptainBackpack
   - CaptainOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
@@ -20,6 +23,9 @@
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -42,6 +48,9 @@
   - PassengerGloves
   - PassengerOuterClothing
   - PassengerShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -55,6 +64,9 @@
   - BartenderJumpsuit
   - CommonBackpack
   - BartenderOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -66,6 +78,9 @@
   - GroupTankHarness
   - BartenderJumpsuit
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -80,6 +95,9 @@
   - ChefJumpsuit
   - CommonBackpack
   - ChefOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -91,6 +109,9 @@
   - GroupTankHarness
   - LibrarianJumpsuit
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -103,6 +124,9 @@
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -118,6 +142,9 @@
   - ChaplainJumpsuit
   - CommonBackpack
   - ChaplainOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -132,6 +159,9 @@
   - JanitorGloves
   - CommonBackpack
   - JanitorOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -146,6 +176,9 @@
   - BotanistJumpsuit
   - BotanistBackpack
   - BotanistOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -160,6 +193,9 @@
   - ClownBackpack
   - ClownOuterClothing
   - ClownShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalClown
   - Trinkets
@@ -174,6 +210,9 @@
   - MimeBackpack
   - MimeOuterClothing
   - MimeBelt
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalMime
   - Trinkets
@@ -185,6 +224,9 @@
   - MusicianJumpsuit
   - CommonBackpack
   - MusicianOuterClothing
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -202,6 +244,9 @@
   - CargoTechnicianBackpack
   - QuartermasterOuterClothing
   - QuartermasterShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -216,6 +261,9 @@
   - CargoTechnicianBackpack
   - CargoTechnicianOuterClothing
   - CargoTechnicianShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -228,6 +276,9 @@
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -244,6 +295,9 @@
   - ChiefEngineerNeck
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -254,6 +308,9 @@
   - GroupTankHarness
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -268,6 +325,9 @@
   - StationEngineerOuterClothing
   - StationEngineerShoes
   - StationEngineerID
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -280,6 +340,9 @@
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -296,6 +359,9 @@
   - ResearchDirectorOuterClothing
   - ScientistGloves
   - ResearchDirectorShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -313,6 +379,9 @@
   - ScientistGloves
   - ScientistShoes
   - ScientistPDA
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -324,6 +393,9 @@
   - GroupTankHarness
   - ResearchAssistantJumpsuit
   - ScientistBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -340,6 +412,9 @@
   - SecurityBelt
   - HeadofSecurityOuterClothing
   - SecurityShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
@@ -354,6 +429,9 @@
   - SecurityBelt
   - WardenOuterClothing
   - SecurityShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
@@ -369,6 +447,9 @@
   - SecurityShoes
   - SecurityPDA
   - SecurityBelt
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
@@ -383,6 +464,9 @@
   - SecurityBackpack
   - DetectiveOuterClothing
   - SecurityShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
@@ -393,6 +477,9 @@
   groups:
   - SecurityCadetJumpsuit
   - SecurityBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathToolSecurity
@@ -410,6 +497,9 @@
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -427,6 +517,9 @@
   - MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -438,6 +531,9 @@
   - GroupTankHarness
   - MedicalInternJumpsuit
   - MedicalBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -453,6 +549,9 @@
   - ChemistBackpack
   - ChemistOuterClothing
   - MedicalShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
@@ -468,6 +567,9 @@
   - MedicalBackpack
   - ParamedicOuterClothing
   - ParamedicShoes
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -479,6 +581,9 @@
   groups:
   - GroupTankHarness
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -490,6 +595,9 @@
   - GroupTankHarness
   - ReporterJumpsuit
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -501,6 +609,9 @@
   - GroupTankHarness
   - PsychologistJumpsuit
   - MedicalBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -513,6 +624,9 @@
   - BoxerJumpsuit
   - BoxerGloves
   - CommonBackpack
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Glasses
   - Survival
   - Trinkets
@@ -524,12 +638,18 @@
 - type: roleLoadout
   id: RoleSurvivalVoxSupport
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - GroupSpeciesBreathTool
   - GroupTankHarness
 
 - type: roleLoadout
   id: RoleSurvivalStandard
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - Survival
   - GroupSpeciesBreathTool
   - GroupTankHarness
@@ -537,12 +657,18 @@
 - type: roleLoadout
   id: RoleSurvivalClown
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalClown
   - GroupTankHarness
 
 - type: roleLoadout
   id: RoleSurvivalExtended
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalExtended
   - GroupSpeciesBreathTool
   - GroupTankHarness
@@ -550,6 +676,9 @@
 - type: roleLoadout
   id: RoleSurvivalMedical
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalMedical
   - GroupSpeciesBreathToolMedical
   - GroupTankHarness
@@ -557,6 +686,9 @@
 - type: roleLoadout
   id: RoleSurvivalSecurity
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSecurity
   - GroupSpeciesBreathToolSecurity
   - GroupTankHarness
@@ -564,6 +696,9 @@
 - type: roleLoadout
   id: RoleSurvivalSyndicate
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSyndicate
   - GroupSpeciesBreathTool
   - GroupTankHarness
@@ -571,6 +706,9 @@
 - type: roleLoadout
   id: RoleSurvivalNukie
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - SurvivalSyndicate
   - GroupSpeciesBreathTool
   - GroupPocketTankDouble
@@ -578,5 +716,8 @@
 - type: roleLoadout
   id: RoleSurvivalEVA
   groups:
+  - Undershirt # Emberfall
+  - Underpants # Emberfall
+  - Socks # Emberfall
   - GroupEVATank
   - SurvivalExtended

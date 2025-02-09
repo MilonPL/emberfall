@@ -1,0 +1,24 @@
+- type: loadout
+  id: ClothingUnderSocks
+  equipment:
+    socks: ClothingUnderSocks
+
+- type: loadout
+  id: ClothingUnderSocksKnee
+  equipment:
+    socks: ClothingUnderSocksKnee
+
+- type: loadout
+  id: ClothingUnderSocksBeeKnee
+  equipment:
+    socks: ClothingUnderSocksBeeKnee
+
+- type: loadout
+  id: ClothingUnderSocksRainbowKnee
+  equipment:
+    socks: ClothingUnderSocksRainbowKnee
+
+- type: loadout
+  id: ClothingUnderSocksBee
+  equipment:
+    socks: ClothingUnderSocksBee

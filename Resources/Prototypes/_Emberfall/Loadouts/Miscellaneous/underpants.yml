@@ -1,0 +1,39 @@
+- type: loadout
+  id: ClothingUnderBeeShorts
+  equipment:
+    underpants: ClothingUnderBeeShorts
+
+- type: loadout
+  id: ClothingUnderBoxerBriefs
+  equipment:
+    underpants: ClothingUnderBoxerBriefs
+
+- type: loadout
+  id: ClothingUnderBoxers
+  equipment:
+    underpants: ClothingUnderBoxers
+
+- type: loadout
+  id: ClothingUnderBoxersStriped
+  equipment:
+    underpants: ClothingUnderBoxersStriped
+
+- type: loadout
+  id: ClothingUnderBriefs
+  equipment:
+    underpants: ClothingUnderBriefs
+
+- type: loadout
+  id: ClothingUnderLongjohn
+  equipment:
+    underpants: ClothingUnderLongjohn
+
+- type: loadout
+  id: ClothingUnderPanties
+  equipment:
+    underpants: ClothingUnderPanties
+
+- type: loadout
+  id: ClothingUnderPantiesStried
+  equipment:
+    underpants: ClothingUnderPantiesStried
