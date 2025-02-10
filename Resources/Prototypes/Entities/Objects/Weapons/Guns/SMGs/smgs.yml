@@ -166,11 +166,11 @@
 - type: entity
   name: Drozd
   parent: [BaseWeaponSubMachineGun, BaseRestrictedContraband]
-  id: WeaponSubMachineGunDrozd
+  id: WeaponSubMachineGunDrozd # Emberfall - This is actually the SC-82 Defender, not confusing at all
   description: An excellent fully automatic Heavy SMG.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
+      sprite: _Emberfall/Objects/Weapons/Guns/SMGs/drozd.rsi
       layers:
         - state: base
           map: ["enum.GunVisualLayers.Base"]
@@ -189,11 +189,12 @@
       maxAngle: 32
       fireRate: 12
       burstFireRate: 12
-      selectedMode: Burst
+      selectedMode: FullAuto # Emberfall
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
       availableModes:
         - Burst
+        - FullAuto # Emberfall
       shotsPerBurst: 3
       burstCooldown: 0.25
     - type: ItemSlots

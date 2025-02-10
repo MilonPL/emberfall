@@ -67,8 +67,8 @@ ent-WeaponSubMachineGunAtreides =
 ent-WeaponSubMachineGunC20r =
     .desc = Syndicate's pride and joy. Similar to SC's Vector but with better build quality and a more aggressive attitude.
 
-ent-WeaponSubMachineGunDrozd =
-    .desc = SC's answer to the age-old question: 'What if we made an SMG that thinks it's an assault rifle?' Chambered in 5.56mm for compatibility with standard rifle ammunition.
+ent-WeaponSubMachineGunDrozd = SC-82 Defender
+    .desc = A heavy SMG built for sustained fire support. Quick-change barrel and reinforced feed mechanism make it perfect for clearing long corridors.
 
 ent-WeaponSubMachineGunWt550 =
     .desc = Modern light SMG that proves sometimes simple is better. Lightweight, reliable, and user-friendly.
